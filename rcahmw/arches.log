@@ -15326,3 +15326,44 @@ Exception: Conversion Error : Coordinates outside of BNG for England.
 2023-03-02 09:20:59,147 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
 2023-03-02 10:07:19,703 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
 2023-03-02 10:41:13,323 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 11:11:55,016 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 11:12:14,466 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 11:12:22,550 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 11:24:40,647 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 12:59:55,418 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 14:33:47,861 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 14:59:27,274 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 15:45:38,779 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 15:46:00,588 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 15:47:26,826 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 15:53:59,237 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 17:01:58,037 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 17:09:13,537 arches.app.views.tile ERROR    Unable to save. Please verify your input is valid [Tile id: ]                      [Exception message: TileValidationError: This card requires values for the following: NMRW_Name]                      [Exception trace: Traceback (most recent call last):
+  File "/home/sa_arches/arches/arches/app/views/tile.py", line 143, in post
+    tile.save(request=request, transaction_id=transaction_id)
+  File "/home/sa_arches/arches/arches/app/models/tile.py", line 398, in save
+    self.check_for_missing_nodes()
+  File "/home/sa_arches/arches/arches/app/models/tile.py", line 312, in check_for_missing_nodes
+    raise TileValidationError(message)
+arches.app.models.tile.TileValidationError: 'This card requires values for the following: NMRW_Name'
+]
+2023-03-02 17:10:43,286 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 17:11:16,390 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-02 18:04:47,394 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:51:29,601 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:53:59,213 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:54:05,263 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:54:12,379 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:54:41,047 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:55:28,264 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:55:44,127 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
+2023-03-03 09:57:47,211 arches.app.views.tile ERROR    Unable to save. [Tile id: ]                      [Exception message: validate() got an unexpected keyword argument 'strict']                      [Exception trace: Traceback (most recent call last):
+  File "/home/sa_arches/arches/arches/app/views/tile.py", line 143, in post
+    tile.save(request=request, transaction_id=transaction_id)
+  File "/home/sa_arches/arches/arches/app/models/tile.py", line 435, in save
+    self.validate([], request=request)
+  File "/home/sa_arches/arches/arches/app/models/tile.py", line 329, in validate
+    error = datatype.validate(value, node=node, strict=strict, request=request)
+TypeError: validate() got an unexpected keyword argument 'strict'
+]
+2023-03-03 09:58:15,845 arches.app.utils.task_management ERROR    Unable to connect to a celery broker
