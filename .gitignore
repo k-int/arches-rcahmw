@@ -1,0 +1,15 @@
+*.pyc
+*.log
+rcahmw/logs
+rcahmw/export_deliverables
+rcahmw/cantaloupe/*
+rcahmw/staticfiles
+rcahmw/media/packages
+rcahmw/media/node_modules
+rcahmw/media/build/*
+rcahmw/uploadedfiles/*
+rcahmw/settings_local.py
+rcahmw/webpack/webpack-stats.json
+rcahmw/webpack/webpack-user-config.js
+.vscode/
+CACHE
