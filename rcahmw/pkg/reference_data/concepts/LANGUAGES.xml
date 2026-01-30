@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:arches="http://localhost:8000/"
+>
+<!-- Add Welsh to languages -->
+
+  <skos:ConceptScheme rdf:about="http://localhost:8000/d8074f50-8378-4d05-a251-5ee898686e2f">
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/75c4c7ca-225b-4db5-bad3-10fcf4da35e1"/>
+    <dcterms:identifier xml:lang="en">{"id": "33e7c4ca-177f-4b63-a083-cdb646d6c89b", "value": "http://www.archesproject.org/d8074f50-8378-4d05-a251-5ee898686e2f"}</dcterms:identifier>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://localhost:8000/75c4c7ca-225b-4db5-bad3-10fcf4da35e1">
+    <skos:inScheme rdf:resource="http://localhost:8000/d8074f50-8378-4d05-a251-5ee898686e2f"/>
+    <skos:prefLabel xml:lang="en">{"id": "3688112b-937f-4998-a743-75cf672907cc", "value": "Welsh"}</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Collection rdf:about="http://localhost:8000/daacadea-1454-4cf4-8b14-9ade8069f4d7">
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/75c4c7ca-225b-4db5-bad3-10fcf4da35e1"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>
