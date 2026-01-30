@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+
+<!-- Import of preferred name language concept scheme, from previous instance -->
+
+  <skos:ConceptScheme rdf:about="http://localhost:8000/cb922911-d293-4f5e-b62a-2a0141cfc462">
+    <dcterms:title xml:lang="en-us">{"id": "d9b68358-3846-4038-bcec-c645acdf3819", "value": "Name Preferred Language"}</dcterms:title>
+    <dcterms:identifier xml:lang="en-us">{"id": "4cc0c056-407b-45bf-86c3-f81a2e2e2444", "value": "http://localhost:8000/cb922911-d293-4f5e-b62a-2a0141cfc462"}</dcterms:identifier>
+    <dcterms:description xml:lang="en-us">{"id": "963a4201-ba34-42a4-8c3e-7412cb6639b6", "value": "Defines whether a site name is preferred English or Welsh form"}</dcterms:description>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/34576bd0-317e-4afe-b808-16f8ae296966"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/48d8d0a7-e708-4010-a13d-db47570d1fe7"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d2adde9b-e0fa-4986-95d9-ce29b0beb3ff"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4e888244-30df-473a-ba7c-6751549794a7"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://localhost:8000/48d8d0a7-e708-4010-a13d-db47570d1fe7">
+    <skos:prefLabel xml:lang="en-us">{"id": "30307785-4739-466f-9941-f85256fc9919", "value": "No preference"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/cb922911-d293-4f5e-b62a-2a0141cfc462"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "ec635ec6-3c49-431a-9e74-bdbffccb2c29", "value": "http://localhost:8000/48d8d0a7-e708-4010-a13d-db47570d1fe7"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/34576bd0-317e-4afe-b808-16f8ae296966">
+    <skos:inScheme rdf:resource="http://localhost:8000/cb922911-d293-4f5e-b62a-2a0141cfc462"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "684b0c38-bf5b-42b2-a60e-97ac24ddf9dc", "value": "http://localhost:8000/34576bd0-317e-4afe-b808-16f8ae296966"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en-us">{"id": "aa73f619-f4cf-4bfa-97fb-4ded316ea182", "value": "Preferred Welsh"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4e888244-30df-473a-ba7c-6751549794a7">
+    <dcterms:identifier xml:lang="en-us">{"id": "130a67ec-2e62-4873-970c-9752bb55cbee", "value": "http://localhost:8000/4e888244-30df-473a-ba7c-6751549794a7"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en-us">{"id": "edffdef1-943a-47f0-8a43-581084c21448", "value": "Preferred Bilingual"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/cb922911-d293-4f5e-b62a-2a0141cfc462"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d2adde9b-e0fa-4986-95d9-ce29b0beb3ff">
+    <dcterms:identifier xml:lang="en-us">{"id": "471d326a-d5eb-4f99-b488-f52b189698e4", "value": "http://localhost:8000/d2adde9b-e0fa-4986-95d9-ce29b0beb3ff"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en-us">{"id": "ed719f60-a875-4a30-95eb-a2396f4218d3", "value": "Preferred English"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/cb922911-d293-4f5e-b62a-2a0141cfc462"/>
+  </skos:Concept>
+
+  <skos:Collection rdf:about="http://localhost:8000/1506d8cc-d6f5-47d0-94a7-166ed6ed8708">
+    <skos:prefLabel xml:lang="en-us">{"id": "9aac2af3-b218-448c-85ab-6cccb8144040", "value": "Name Preferred Language"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en-us">{"id": "576052d1-22a9-4b5a-859a-82b10a4f4cb0", "value": "Defines whether a site name is preferred English or Welsh form"}</skos:scopeNote>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/4e888244-30df-473a-ba7c-6751549794a7"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/48d8d0a7-e708-4010-a13d-db47570d1fe7"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/34576bd0-317e-4afe-b808-16f8ae296966"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/d2adde9b-e0fa-4986-95d9-ce29b0beb3ff"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>
+
+
