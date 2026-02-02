@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe">
+  <dcterms:title xml:lang="en">{"id": "9c6be866-2f9a-42c0-a954-f9d7167cfd82", "value": "Protection Type"}</dcterms:title>
+  <dcterms:identifier xml:lang="en">{"id": "f02d3da3-e9fa-45a0-9308-8f94b3098452", "value": "http://www.archesproject.org/c0254d4d-3948-4614-af80-4ee065deadbe"}</dcterms:identifier>
+  <skos:hasTopConcept rdf:resource="http://localhost:8000/e26bc963-a6b0-4488-9a53-ced23bdeab9e"/>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="http://localhost:8000/e26bc963-a6b0-4488-9a53-ced23bdeab9e">
+  <dcterms:identifier xml:lang="en">{"id": "7160da72-560d-45ad-ac9c-661fd41ac74f", "value": "http://www.archesproject.org/e26bc963-a6b0-4488-9a53-ced23bdeab9e"}</dcterms:identifier>
+  <skos:inScheme rdf:resource="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe"/>
+  <skos:prefLabel xml:lang="en">{"id": "5105fefb-fdb3-4d19-8ad5-51b563fd51e5", "value": "Statutory Protection Type"}</skos:prefLabel>
+  <skos:narrower rdf:resource="http://localhost:8000/cb99be4f-8fa6-4d6c-8efd-152470cbd824"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/cb99be4f-8fa6-4d6c-8efd-152470cbd824">
+  <skos:inScheme rdf:resource="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe"/>
+  <skos:prefLabel xml:lang="en">{"id": "38073259-fbea-45aa-ac21-35b7f73ac096", "value": "Guardianship Ancient Monument"}</skos:prefLabel>
+  <skos:broader rdf:resource="http://localhost:8000/e26bc963-a6b0-4488-9a53-ced23bdeab9e"/>
+</skos:Concept>
+
+<skos:Collection rdf:about="http://localhost:8000/08224567-338c-406b-91ae-6ce4b4ee3608">
+  <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/e26bc963-a6b0-4488-9a53-ced23bdeab9e">
+        <skos:member rdf:resource="http://localhost:8000/cb99be4f-8fa6-4d6c-8efd-152470cbd824"/>
+    </skos:Concept>
+  </skos:member>
+</skos:Collection>
+
+
+</rdf:RDF>
