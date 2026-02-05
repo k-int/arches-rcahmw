@@ -1,0 +1,23 @@
+<rdf:RDF 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/23715301-6fdb-43b1-9be2-e781904e8914">
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/065c22e7-4f1f-488a-a700-3cccbd32f41f"/>
+    <dcterms:identifier xml:lang="en">{"id": "f4ad8e89-1fe7-43d8-9676-8ad41e860ee1", "value": "http://www.archesproject.org/23715301-6fdb-43b1-9be2-e781904e8914"}</dcterms:identifier>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="http://localhost:8000/065c22e7-4f1f-488a-a700-3cccbd32f41f">
+    <skos:prefLabel xml:lang="en">{"id": "6b3c7128-ad9e-4572-83b6-06178a771b3e", "value": "Community"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/23715301-6fdb-43b1-9be2-e781904e8914"/>
+</skos:Concept>
+
+<skos:Collection rdf:about="http://localhost:8000/59a0a035-bbd0-4e5e-9528-862790edc610">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/065c22e7-4f1f-488a-a700-3cccbd32f41f"/>
+    </skos:member>
+</skos:Collection>
+
+</rdf:RDF>
