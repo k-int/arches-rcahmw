@@ -5,18 +5,27 @@
 >
 
 <skos:ConceptScheme rdf:about="http://localhost:8000/23715301-6fdb-43b1-9be2-e781904e8914">
-    <skos:hasTopConcept rdf:resource="http://localhost:8000/065c22e7-4f1f-488a-a700-3cccbd32f41f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/acb39e88-c3a1-48e9-8ce0-701d0cf0ed6e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cff0383f-4547-4384-8e31-bf6a7504bc2a"/>
     <dcterms:identifier xml:lang="en">{"id": "f4ad8e89-1fe7-43d8-9676-8ad41e860ee1", "value": "http://www.archesproject.org/23715301-6fdb-43b1-9be2-e781904e8914"}</dcterms:identifier>
 </skos:ConceptScheme>
 
-<skos:Concept rdf:about="http://localhost:8000/065c22e7-4f1f-488a-a700-3cccbd32f41f">
-    <skos:prefLabel xml:lang="en">{"id": "6b3c7128-ad9e-4572-83b6-06178a771b3e", "value": "Community"}</skos:prefLabel>
+<skos:Concept rdf:about="http://localhost:8000/acb39e88-c3a1-48e9-8ce0-701d0cf0ed6e">
+    <skos:prefLabel xml:lang="en">{"id": "6311b035-c8a9-4f96-8f36-bd1998cd91fd", "value": "Community"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/23715301-6fdb-43b1-9be2-e781904e8914"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/cff0383f-4547-4384-8e31-bf6a7504bc2a">
+    <skos:prefLabel xml:lang="en-us">{"id": "a01d16ea-7174-4796-a856-3ede5d22fcb3", "value": "Old County"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/23715301-6fdb-43b1-9be2-e781904e8914"/>
 </skos:Concept>
 
 <skos:Collection rdf:about="http://localhost:8000/59a0a035-bbd0-4e5e-9528-862790edc610">
     <skos:member>
-        <skos:Concept rdf:about="http://localhost:8000/065c22e7-4f1f-488a-a700-3cccbd32f41f"/>
+        <skos:Concept rdf:about="http://localhost:8000/acb39e88-c3a1-48e9-8ce0-701d0cf0ed6e"/>
+    </skos:member>
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/cff0383f-4547-4384-8e31-bf6a7504bc2a"/>
     </skos:member>
 </skos:Collection>
 
