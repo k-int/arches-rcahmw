@@ -1,0 +1,120 @@
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:arches="http://localhost:8000/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <skos:ConceptScheme rdf:about="http://localhost:8000/69853217-919d-4f64-896b-ef728538612f">
+        <dcterms:title xml:lang="en">{"id": "4786d11a-dd58-4364-baa9-db7a904e9acd", "value": "NGR Source"}</dcterms:title>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="http://localhost:8000/5c8e700c-988b-4b57-82ab-ae6e2cf14eaf">
+                <skos:prefLabel xml:lang="en">{"id": "9ae9bb1c-91c5-4f50-bb0b-9a410ee5ffb8",
+                    "value": "Handheld Global Positioning System"}</skos:prefLabel>
+                <arches:sortorder xml:lang="en">{"id": "13d9d87e-04db-4f4f-b82f-ed382284232c",
+                    "value": "4"}</arches:sortorder>
+                <skos:scopeNote xml:lang="en">{"id": "78df8f66-e3fd-46e4-b2a5-ed44f7a9822b",
+                    "value": "Grid reference obtained by a handheld Global Positioning System that
+                    has not been calibrated to a base station."}</skos:scopeNote>
+                <skos:prefLabel xml:lang="cy">{"id": "42fe8086-08b6-49f1-9741-1c0b508416d8",
+                    "value": "System leoli fyd-eang yn y llaw"}</skos:prefLabel>
+                <skos:inScheme
+                    rdf:resource="http://localhost:8000/69853217-919d-4f64-896b-ef728538612f" />
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="http://localhost:8000/5cbac04d-4c96-4c70-bb9c-7b3ebbb6e635">
+                <arches:sortorder xml:lang="en">{"id": "36268fa7-1cff-40ec-a9a3-e3039d0be493",
+                    "value": "3"}</arches:sortorder>
+                <skos:scopeNote xml:lang="en">{"id": "19cbb904-1ae3-47e1-9d24-30ce4780f1bc",
+                    "value": "Grid reference obtained by using a Global Positioning System that is
+                    calibrated using an accurately established base station."}</skos:scopeNote>
+                <skos:prefLabel xml:lang="cy">{"id": "f3c6cd9f-a590-41b2-b104-5aafa5ff3d85",
+                    "value": "System leoli fyd-eang wahaniaethol"}</skos:prefLabel>
+                <skos:inScheme
+                    rdf:resource="http://localhost:8000/69853217-919d-4f64-896b-ef728538612f" />
+                <skos:prefLabel xml:lang="en">{"id": "b51cc19b-f3f3-4ad5-bc62-1f8c5c6d4097",
+                    "value": "Differential Global Positioning System"}</skos:prefLabel>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="http://localhost:8000/cfaf052f-1f8a-4065-bb66-5ae5add57b89">
+                <skos:inScheme
+                    rdf:resource="http://localhost:8000/69853217-919d-4f64-896b-ef728538612f" />
+                <skos:prefLabel xml:lang="cy">{"id": "d1330cb5-09ff-446c-867a-dadf3a0f0391",
+                    "value": "Adnoddau map ar-lein"}</skos:prefLabel>
+                <arches:sortorder xml:lang="en">{"id": "f6358546-a225-4edd-a758-84ed0e1621ab",
+                    "value": "6"}</arches:sortorder>
+                <skos:prefLabel xml:lang="en">{"id": "3b9cb925-77d4-47e7-8421-798002996cb6",
+                    "value": "Online map resources"}</skos:prefLabel>
+                <skos:scopeNote xml:lang="en">{"id": "f5a0067b-00f4-40a0-8d22-8560afbb40bf",
+                    "value": "Grid reference has been obtained using an on-line mapping system other
+                    that the Ordnance Survey such as Bing Maps or Google Earth."}</skos:scopeNote>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="http://localhost:8000/9b5a8b7c-2b32-497a-b03c-fb58ec4bd3f2">
+                <skos:prefLabel xml:lang="cy">{"id": "9178cb0b-bf8b-4ba2-8322-c97ab876f661",
+                    "value": "Mapiau digidol yr Arolwg Ordnans"}</skos:prefLabel>
+                <arches:sortorder xml:lang="en">{"id": "c3ab3fdd-1607-45d7-bb24-3ca966be8cad",
+                    "value": "1"}</arches:sortorder>
+                <skos:scopeNote xml:lang="en">{"id": "ec0f1776-adf4-43a4-9b51-dd934e9b64cd",
+                    "value": "Grid reference obtained from a modern digital version of Ordnance
+                    Survey mapping, such as LandLine."}</skos:scopeNote>
+                <skos:inScheme
+                    rdf:resource="http://localhost:8000/69853217-919d-4f64-896b-ef728538612f" />
+                <skos:prefLabel xml:lang="en">{"id": "1fc8fff8-60b5-44c6-a653-385990de19e1",
+                    "value": "Ordnance Survey digital mapping"}</skos:prefLabel>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="http://localhost:8000/8ccfa56e-5b54-4997-bfef-6a21c8cfbb85">
+                <skos:scopeNote xml:lang="en">{"id": "23473bc2-abed-4217-b02a-172d6b7c9320",
+                    "value": "Grid reference has been obtained from a hand-held device such as a
+                    mobile phone."}</skos:scopeNote>
+                <skos:inScheme
+                    rdf:resource="http://localhost:8000/69853217-919d-4f64-896b-ef728538612f" />
+                <arches:sortorder xml:lang="en">{"id": "c0dbfaf6-9d97-4fc7-8853-306131d165fe",
+                    "value": "5"}</arches:sortorder>
+                <skos:prefLabel xml:lang="en">{"id": "79f64d6c-fb98-47e1-9ced-24b30bccb82d",
+                    "value": "Mobile device"}</skos:prefLabel>
+                <skos:prefLabel xml:lang="cy">{"id": "cda49702-1eb9-46eb-b744-afc1e7e7daf5",
+                    "value": "Dyfais symudol"}</skos:prefLabel>
+            </skos:Concept>
+        </skos:hasTopConcept>
+        <skos:hasTopConcept>
+            <skos:Concept rdf:about="http://localhost:8000/9c043cc7-efcf-447a-af8f-48f7b074a890">
+                <skos:prefLabel xml:lang="en">{"id": "d6f675aa-afae-4e99-b26f-6c4029ed8cca",
+                    "value": "Ordnance Survey County Series map"}</skos:prefLabel>
+                <skos:inScheme
+                    rdf:resource="http://localhost:8000/69853217-919d-4f64-896b-ef728538612f" />
+                <skos:scopeNote xml:lang="en">{"id": "b323a09a-37e0-45b3-aee9-be71f1acec85",
+                    "value": "Grid reference derived from a pre-1936 Ordnance Survey map that used
+                    the Cassini projection."}</skos:scopeNote>
+                <skos:prefLabel xml:lang="cy">{"id": "b2328d73-d18a-4deb-8938-25756bc25173",
+                    "value": "Map cyfres y siroedd gan yr Arolwg Ordnans"}</skos:prefLabel>
+                <arches:sortorder xml:lang="en">{"id": "a54674b0-aa9a-415d-98b2-e3ebc1cd1a4e",
+                    "value": "2"}</arches:sortorder>
+            </skos:Concept>
+        </skos:hasTopConcept>
+    </skos:ConceptScheme>
+
+    <skos:Collection rdf:about="http://localhost:8000/cf4179e6-504f-43b8-bc1f-7333e2b8f9e2">
+        <skos:prefLabel xml:lang="en">{"id": "b62c0b49-a952-403d-80c4-e332b14bd302", "value":
+            "NGR Source"}</skos:prefLabel>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/5c8e700c-988b-4b57-82ab-ae6e2cf14eaf" />
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/5cbac04d-4c96-4c70-bb9c-7b3ebbb6e635" />
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/cfaf052f-1f8a-4065-bb66-5ae5add57b89" />
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/9b5a8b7c-2b32-497a-b03c-fb58ec4bd3f2" />
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/8ccfa56e-5b54-4997-bfef-6a21c8cfbb85" />
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/9c043cc7-efcf-447a-af8f-48f7b074a890" />
+        </skos:member>
+    </skos:Collection>
+</rdf:RDF>
