@@ -59,6 +59,33 @@
                 },
                 {
                     "active": true,
+                    "cardid": "2a26e2ea-bfa4-4c6f-a7d7-14e2c0d966f5",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Mapsheet"
+                    },
+                    "nodegroup_id": "82587b12-0694-11f1-af5c-39a6bac5dceb",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "2c144108-31e0-11ec-9967-a87eeabdefba",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -558,6 +585,33 @@
                 },
                 {
                     "active": true,
+                    "cardid": "86296707-d063-4675-8098-50d6f40a1224",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "NGR Source"
+                    },
+                    "nodegroup_id": "f8d3c69c-0690-11f1-af5c-39a6bac5dceb",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "87d38727-f44f-11eb-83ca-a87eeabdefba",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -1005,6 +1059,33 @@
                 },
                 {
                     "active": true,
+                    "cardid": "ef0d678d-c3c9-4965-a9fc-c57d9b56e231",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "KMSQ"
+                    },
+                    "nodegroup_id": "e1978234-0690-11f1-af5c-39a6bac5dceb",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "f17f6583-efc7-11eb-9112-a87eeabdefba",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -1028,6 +1109,33 @@
                     },
                     "nodegroup_id": "f17f6581-efc7-11eb-b09f-a87eeabdefba",
                     "sortorder": 17,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "f58695f0-fc0e-4c34-9775-8fc341a5d32c",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "NGR Accuracy"
+                    },
+                    "nodegroup_id": "25a78776-0691-11f1-af5c-39a6bac5dceb",
+                    "sortorder": null,
                     "visible": true
                 },
                 {
@@ -13559,6 +13667,12 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
+                    "nodegroupid": "25a78776-0691-11f1-af5c-39a6bac5dceb",
+                    "parentnodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
                     "nodegroupid": "325a2f2f-efe4-11eb-9b0c-a87eeabdefba",
                     "parentnodegroup_id": null
                 },
@@ -13627,6 +13741,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "77e8f287-efdc-11eb-a790-a87eeabdefba",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "82587b12-0694-11f1-af5c-39a6bac5dceb",
+                    "parentnodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba"
                 },
                 {
                     "cardinality": "n",
@@ -13767,10 +13887,22 @@
                     "parentnodegroup_id": null
                 },
                 {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "e1978234-0690-11f1-af5c-39a6bac5dceb",
+                    "parentnodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba"
+                },
+                {
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "f17f6581-efc7-11eb-b09f-a87eeabdefba",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "f8d3c69c-0690-11f1-af5c-39a6bac5dceb",
+                    "parentnodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba"
                 },
                 {
                     "cardinality": "1",
@@ -13955,12 +14087,12 @@
                     "fieldname": null,
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "NGR Accuracy",
-                    "nodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba",
+                    "nodegroup_id": "25a78776-0691-11f1-af5c-39a6bac5dceb",
                     "nodeid": "25a78776-0691-11f1-af5c-39a6bac5dceb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
@@ -17841,12 +17973,12 @@
                     "fieldname": "mapsheet",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Mapsheet",
-                    "nodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba",
+                    "nodegroup_id": "82587b12-0694-11f1-af5c-39a6bac5dceb",
                     "nodeid": "82587b12-0694-11f1-af5c-39a6bac5dceb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
@@ -23618,12 +23750,12 @@
                     "fieldname": "kmsq",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "KMSQ",
-                    "nodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba",
+                    "nodegroup_id": "e1978234-0690-11f1-af5c-39a6bac5dceb",
                     "nodeid": "e1978234-0690-11f1-af5c-39a6bac5dceb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
@@ -23838,12 +23970,12 @@
                     "fieldname": "ngr_source",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "NGR Source",
-                    "nodegroup_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba",
+                    "nodegroup_id": "f8d3c69c-0690-11f1-af5c-39a6bac5dceb",
                     "nodeid": "f8d3c69c-0690-11f1-af5c-39a6bac5dceb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
