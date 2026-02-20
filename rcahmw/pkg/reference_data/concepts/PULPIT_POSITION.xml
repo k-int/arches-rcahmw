@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/10c20049-2d3b-4a8e-9f64-3958d06bb67c">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/ee500878-e7d6-4049-baa0-998e8969ec8c">
+        <skos:inScheme rdf:resource="http://localhost:8000/10c20049-2d3b-4a8e-9f64-3958d06bb67c"/>
+        <skos:prefLabel xml:lang="en">{"id": "5b2c2ae3-941e-4810-9882-639cf7e7dfe0", "value": "Front Wall"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "a071146a-11a8-4b83-8228-781042ac3fe7", "value": "Pulpit Position"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/7cc68783-5d55-48e6-95b0-b10e81ba4b6b">
+        <skos:prefLabel xml:lang="en">{"id": "208960cd-1c35-4944-add6-cb64824e9b7a", "value": "Right Wall"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/10c20049-2d3b-4a8e-9f64-3958d06bb67c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/3decc869-1404-47e0-9b0b-8ca14cc5c6e5">
+        <skos:inScheme rdf:resource="http://localhost:8000/10c20049-2d3b-4a8e-9f64-3958d06bb67c"/>
+        <skos:prefLabel xml:lang="en">{"id": "d0476c36-bdb2-47e0-a209-46c138272658", "value": "Rear Wall"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/ab52f43e-37af-4fc5-9365-cead62331c87">
+        <skos:prefLabel xml:lang="en">{"id": "7c7dab5f-bc32-47b2-a668-d02775820890", "value": "Detached"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/10c20049-2d3b-4a8e-9f64-3958d06bb67c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/f4caf330-d838-4b90-80cd-5efe1c07ef00">
+        <skos:inScheme rdf:resource="http://localhost:8000/10c20049-2d3b-4a8e-9f64-3958d06bb67c"/>
+        <skos:prefLabel xml:lang="en">{"id": "d97b3809-f116-48eb-b8e2-17dafeebd3d8", "value": "Left Wall"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+
+  <skos:Collection rdf:about="http://localhost:8000/dc9f47bc-ccf9-4b0f-be4a-b2d5a80b6c56">
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/7cc68783-5d55-48e6-95b0-b10e81ba4b6b"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/ab52f43e-37af-4fc5-9365-cead62331c87"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/3decc869-1404-47e0-9b0b-8ca14cc5c6e5"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/f4caf330-d838-4b90-80cd-5efe1c07ef00"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "903f24c9-c141-4e76-9913-76b48025be4a", "value": "Pulpit Position"}</skos:prefLabel>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/ee500878-e7d6-4049-baa0-998e8969ec8c"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>

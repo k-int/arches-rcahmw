@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/ddb60a76-aa7d-4f41-86c2-08f892cae259">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/900bc374-fc96-455f-a295-05cb1f9e9eb0">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/12bae3fe-671b-4284-a248-5ad1ff6e8fab"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/03b3877e-b98c-4071-9fe4-4f9a4812c0ce"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/65202e8a-eddc-4c56-a943-361984550e65"/>
+        <dcterms:title xml:lang="en">{"id": "59cdcf49-340a-4352-b6ce-3e888a040724", "value": "Roof Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ddb60a76-aa7d-4f41-86c2-08f892cae259"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "26fec9a7-c150-480f-aa43-21d1006e1471", "value": "Hipped"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/03b3877e-b98c-4071-9fe4-4f9a4812c0ce">
+    <skos:inScheme rdf:resource="http://localhost:8000/900bc374-fc96-455f-a295-05cb1f9e9eb0"/>
+    <skos:prefLabel xml:lang="en">{"id": "a82f6352-f808-4e9e-a06b-b1bfc473f582", "value": "Half-hipped"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/65202e8a-eddc-4c56-a943-361984550e65">
+    <skos:inScheme rdf:resource="http://localhost:8000/900bc374-fc96-455f-a295-05cb1f9e9eb0"/>
+    <skos:prefLabel xml:lang="en">{"id": "2b45a661-6838-4d35-b291-ed17a9b456f8", "value": "Flat"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/12bae3fe-671b-4284-a248-5ad1ff6e8fab">
+    <skos:inScheme rdf:resource="http://localhost:8000/900bc374-fc96-455f-a295-05cb1f9e9eb0"/>
+    <skos:prefLabel xml:lang="en">{"id": "077ef354-88f4-422b-96a5-13aa75b10a7f", "value": "Gable"}</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Collection rdf:about="http://localhost:8000/1bdd48e4-71e2-44d0-bda6-a68c686105e0">
+    <skos:prefLabel xml:lang="en">{"id": "beadf875-1ea4-4bc6-92ca-b5ffaa6fa610", "value": "Roof Type"}</skos:prefLabel>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/65202e8a-eddc-4c56-a943-361984550e65"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/03b3877e-b98c-4071-9fe4-4f9a4812c0ce"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/ddb60a76-aa7d-4f41-86c2-08f892cae259"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/12bae3fe-671b-4284-a248-5ad1ff6e8fab"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>

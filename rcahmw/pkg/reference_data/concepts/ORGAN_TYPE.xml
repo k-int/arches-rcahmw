@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/d4fac87b-1720-4696-a174-4472fbfed2c4">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/364a4899-ae7f-4071-8f8a-53b56e9ba08b">
+        <skos:inScheme rdf:resource="http://localhost:8000/d4fac87b-1720-4696-a174-4472fbfed2c4"/>
+        <skos:prefLabel xml:lang="en">{"id": "359410e8-ffe2-4ca3-97e9-ded0b70f5dee", "value": "Piano"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d9da4f69-ff2f-4f9f-9bd7-5eead9052ad1">
+        <skos:inScheme rdf:resource="http://localhost:8000/d4fac87b-1720-4696-a174-4472fbfed2c4"/>
+        <skos:prefLabel xml:lang="en">{"id": "32de150a-ab97-4bf3-a717-56f1de75fa44", "value": "Electric"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/bc7750c8-468b-4dd9-b45d-97d1e5853f28">
+        <skos:prefLabel xml:lang="en">{"id": "c33160ac-afb3-455b-bdca-ddfc37d26ed1", "value": "Pipe"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/d4fac87b-1720-4696-a174-4472fbfed2c4"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/e06fa612-9315-443a-bbec-59f2d0a33f33">
+        <skos:prefLabel xml:lang="en">{"id": "f14e7673-43cc-4d26-affe-a2e57c348eb8", "value": "Harmonium"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/d4fac87b-1720-4696-a174-4472fbfed2c4"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "76c4b34e-17d1-45a4-8ebc-73a5c887e3ef", "value": "Organ Type"}</dcterms:title>
+  </skos:ConceptScheme>
+
+  <skos:Collection rdf:about="http://localhost:8000/79431c79-a613-461a-9bf4-58bdb9eaede6">
+    <skos:prefLabel xml:lang="en">{"id": "b8c8d080-8045-478b-af08-bd37fb337558", "value": "Organ Type"}</skos:prefLabel>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/e06fa612-9315-443a-bbec-59f2d0a33f33"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/d9da4f69-ff2f-4f9f-9bd7-5eead9052ad1"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/bc7750c8-468b-4dd9-b45d-97d1e5853f28"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/364a4899-ae7f-4071-8f8a-53b56e9ba08b"/>
+    </skos:member>
+  </skos:Collection>
+
+</rdf:RDF>

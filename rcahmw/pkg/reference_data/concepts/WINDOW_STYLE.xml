@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/4a26e7cd-4003-4291-bc47-0e3275f5426c">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7713f5c7-f8e6-4a54-b22e-094b4f54ecd5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6355897f-7eaa-42fc-a15a-44a583327fb3"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/dcccbe64-065e-498f-9feb-41f0f0d93eb6"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/38d54c94-8fb7-4af2-98ed-c1b73260d7f6"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4a26e7cd-4003-4291-bc47-0e3275f5426c"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/57f10ad0-7b8c-4246-9638-a08cf3f4496f"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4b53afc0-d3e7-45c2-b95f-f5f56ceccc23"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b04e4508-a4bb-47ad-ae5f-136d54489ccc"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/47870c56-2f2b-4d08-86d4-dc82d2a7d22d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ae4254dd-4dc8-4cd8-80cf-4d47ab3470b7"/>
+        <dcterms:title xml:lang="en">{"id": "c314d8ba-401d-4d47-abf5-7aedf920dce9", "value": "Window Style"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4a044387-f9cc-4330-a200-12ed8c20ba5c"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d5181622-ef1a-48fc-ae1a-7c0c0d6ef5c5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4ecdc20f-feb9-4b0b-8984-7381698c3021"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a38538c8-883f-44b4-bc28-dfab585524f9"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/caf038e7-e4b2-4260-8c52-b8a8f4b18aae"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/830e8bce-0c56-4f1f-aa1e-aaf270892596"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "a95e8c97-47c8-4f71-b244-46d17714cdbc", "value": "Wheel Window"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ae4254dd-4dc8-4cd8-80cf-4d47ab3470b7">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "80c80389-2f38-43a3-9a7d-28a13cf3d518", "value": "Raised Surrounds to Doorways"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/38d54c94-8fb7-4af2-98ed-c1b73260d7f6">
+    <skos:prefLabel xml:lang="en">{"id": "b9ddf44e-36ed-4e06-9f5f-f28e3e437f3d", "value": "Rose Window"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4ecdc20f-feb9-4b0b-8984-7381698c3021">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "a524b8b5-d0e0-4122-a976-c89799c2e386", "value": "Raised Surrounds to Windows"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d5181622-ef1a-48fc-ae1a-7c0c0d6ef5c5">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "37cdb877-b403-43e4-9dc3-ce5794399938", "value": "Flat-Headed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/caf038e7-e4b2-4260-8c52-b8a8f4b18aae">
+    <skos:prefLabel xml:lang="en">{"id": "c6cfb08e-984d-4183-9ddd-a8383a0d6204", "value": "Segmental Head"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4b53afc0-d3e7-45c2-b95f-f5f56ceccc23">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "12ddcf3c-5910-43e2-9c20-44f74264668c", "value": "Tall Gothic"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4a044387-f9cc-4330-a200-12ed8c20ba5c">
+    <skos:prefLabel xml:lang="en">{"id": "e9f451e0-f2dc-47dc-9a05-2e6d94cadbc3", "value": "Gothic"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/dcccbe64-065e-498f-9feb-41f0f0d93eb6">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "0f0b987f-5f8a-4b3b-8a8b-090d7136ea27", "value": "Ogee Headed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a38538c8-883f-44b4-bc28-dfab585524f9">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "5bc8629a-64a2-4133-a2ef-8d8219d8b024", "value": "Round-Headed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6355897f-7eaa-42fc-a15a-44a583327fb3">
+    <skos:prefLabel xml:lang="en">{"id": "910f86b1-51c1-479b-9a9d-cac95952ea16", "value": "Tall Segmental Head"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/57f10ad0-7b8c-4246-9638-a08cf3f4496f">
+    <skos:prefLabel xml:lang="en">{"id": "cf66d50b-82a2-4192-88f9-0614bcbfb4f0", "value": "Number of Openings"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/47870c56-2f2b-4d08-86d4-dc82d2a7d22d">
+    <skos:prefLabel xml:lang="en">{"id": "66f091bd-13d7-4dbf-adfe-7a620ca5cde4", "value": "Tall Flat-Headed"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/830e8bce-0c56-4f1f-aa1e-aaf270892596">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "cdb155db-677e-471f-b720-bc55e0a56c98", "value": "Tall Round-Headed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b04e4508-a4bb-47ad-ae5f-136d54489ccc">
+    <skos:prefLabel xml:lang="en">{"id": "aff10ee3-d2d6-45aa-a0d0-9843bcf6c388", "value": "Mixed"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7713f5c7-f8e6-4a54-b22e-094b4f54ecd5">
+    <skos:inScheme rdf:resource="http://localhost:8000/8334bd41-26b5-4aa0-baf8-aedd4365ce94"/>
+    <skos:prefLabel xml:lang="en">{"id": "fa331c68-be5f-4143-a388-abe42444651f", "value": "Perpendicular"}</skos:prefLabel>
+  </skos:Concept>
+  
+  <skos:Collection rdf:about="http://localhost:8000/18ae5bf4-4004-4ac9-b486-b76e6e2c5e79">
+    <skos:prefLabel xml:lang="en">{"id": "b2f088d9-39d6-4c13-9c51-5243651c62b7", "value": "Window Style"}</skos:prefLabel>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/dcccbe64-065e-498f-9feb-41f0f0d93eb6"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/38d54c94-8fb7-4af2-98ed-c1b73260d7f6"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/d5181622-ef1a-48fc-ae1a-7c0c0d6ef5c5"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/4a26e7cd-4003-4291-bc47-0e3275f5426c"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/ae4254dd-4dc8-4cd8-80cf-4d47ab3470b7"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/7713f5c7-f8e6-4a54-b22e-094b4f54ecd5"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/6355897f-7eaa-42fc-a15a-44a583327fb3"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/830e8bce-0c56-4f1f-aa1e-aaf270892596"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/4a044387-f9cc-4330-a200-12ed8c20ba5c"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/4b53afc0-d3e7-45c2-b95f-f5f56ceccc23"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/caf038e7-e4b2-4260-8c52-b8a8f4b18aae"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/a38538c8-883f-44b4-bc28-dfab585524f9"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/47870c56-2f2b-4d08-86d4-dc82d2a7d22d"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/b04e4508-a4bb-47ad-ae5f-136d54489ccc"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/4ecdc20f-feb9-4b0b-8984-7381698c3021"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/57f10ad0-7b8c-4246-9638-a08cf3f4496f"/>
+    </skos:member>
+    </skos:Collection>
+</rdf:RDF>
