@@ -70,8 +70,8 @@ module.exports = () => {
             // order is important! Arches core files are overwritten by project files, project files are overwritten by archesApplication files
             const javascriptRelativeFilepathToAbsoluteFilepathLookup = {
                 ...archesCoreJavascriptRelativeFilepathToAbsoluteFilepathLookup,
-                ...projectJavascriptRelativeFilepathToAbsoluteFilepathLookup,
-                ...archesApplicationsJavascriptRelativeFilepathToAbsoluteFilepathLookup
+                ...archesApplicationsJavascriptRelativeFilepathToAbsoluteFilepathLookup,
+                ...projectJavascriptRelativeFilepathToAbsoluteFilepathLookup
             };
 
             // END create JavaScript filepath lookups
