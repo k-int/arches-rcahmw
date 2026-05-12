@@ -133,6 +133,7 @@ INSTALLED_APPS = (
     # "silk",
     "rcahmw",
     "arches_her",
+    "arches_ciim_app",
 )
 
 INSTALLED_APPS += ("arches.app",)
