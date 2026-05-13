@@ -5,6 +5,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path("", include("arches_her.urls")),
+    path("", include("arches_ciim_app.urls"),)
 ]
 
 # Ensure Arches core urls are superseded by project-level urls

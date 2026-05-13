@@ -133,6 +133,7 @@ INSTALLED_APPS = (
     # "silk",
     "rcahmw",
     "arches_her",
+    "arches_ciim_app",
 )
 
 INSTALLED_APPS += ("arches.app",)
@@ -320,7 +321,7 @@ CELERY_CHECK_ONLY_INSPECT_BROKER = False
 CANTALOUPE_DIR = os.path.join(ROOT_DIR, UPLOADED_FILES_DIR)
 CANTALOUPE_HTTP_ENDPOINT = "http://localhost:8182/"
 
-ACCESSIBILITY_MODE = False
+ACCESSIBILITY_MODE = True
 
 RENDERERS = [
     {
