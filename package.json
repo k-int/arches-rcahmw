@@ -22,7 +22,8 @@
     },
     "dependencies": {
         "arches": "archesproject/arches#stable/7.6.23",
-        "arches_her": "archesproject/arches_her#stable/1.1.0"
+        "arches_her": "archesproject/arches_her#stable/1.1.0",
+        "arches_ciim_app": "k-int/arches_ciim_app#dev/1.0.x"
     },
     "nodeModulesPaths": {
     },
