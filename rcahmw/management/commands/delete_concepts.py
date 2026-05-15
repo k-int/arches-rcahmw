@@ -62,5 +62,4 @@ class Command(BaseCommand):
             "f4ea3e4c-44c0-4107-994f-1461f7a64d33",
         ]
         
-        for c in Concept.objects.filter(conceptid__in=concepts_to_delete):
-            c.delete()
+        Concept.objects.filter(conceptid__in=concepts_to_delete).delete()
