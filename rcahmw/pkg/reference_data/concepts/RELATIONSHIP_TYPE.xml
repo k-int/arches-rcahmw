@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+
+  <skos:ConceptScheme rdf:about="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d">
+    <dcterms:identifier xml:lang="en">{"id": "9d7e8956-d907-4073-acd0-e88bc8a491fa", "value": "http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"}</dcterms:identifier>
+    <dcterms:title xml:lang="en">{"id": "7a7dfebe-e8c9-452e-9b51-b31ab33735ef", "value": "Relationship Type"}</dcterms:title>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ce7ba1ba-6f14-44ea-bfff-a081409f6f3a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a9cfcaee-35be-4288-87c7-8f07e664234f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ffb79986-be9c-4228-a72b-1a711d5a4a41"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/070ea3bd-7053-4b5a-861f-9706f59a0881"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cfd96fb5-d73d-4576-8ecf-4edb8e1fdb23"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/15b644ba-83f4-489d-919c-8a02baf2c04d"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://localhost:8000/cfd96fb5-d73d-4576-8ecf-4edb8e1fdb23">
+    <skos:prefLabel xml:lang="en">{"id": "bcd84364-0087-45f0-8dd1-51dc43d34c28", "value": "Duplicate"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ce7ba1ba-6f14-44ea-bfff-a081409f6f3a">
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+    <skos:prefLabel xml:lang="en">{"id": "2bcb5e40-ebdc-46c9-b91a-a3ac457771d5", "value": "Part of"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ffb79986-be9c-4228-a72b-1a711d5a4a41">
+    <skos:prefLabel xml:lang="en">{"id": "a01efe08-049f-4764-92c6-37500f5ce139", "value": "Subsequent Use"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a9cfcaee-35be-4288-87c7-8f07e664234f">
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+    <skos:prefLabel xml:lang="en">{"id": "bc5c106b-7da5-42f7-ad37-2b5912931df8", "value": "Former Use"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/070ea3bd-7053-4b5a-861f-9706f59a0881">
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+    <skos:prefLabel xml:lang="en">{"id": "5add9db5-57ae-4bca-8089-ba19b3212e15", "value": "Consists of"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/15b644ba-83f4-489d-919c-8a02baf2c04d">
+    <skos:prefLabel xml:lang="en">{"id": "d0444dc5-bec8-4279-bdc6-3e5521e97ee9", "value": "Associated with"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+  </skos:Concept>
+
+  <skos:Collection rdf:about="http://localhost:8000/93362f59-3658-47d8-8781-253fcf06374e">
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/ce7ba1ba-6f14-44ea-bfff-a081409f6f3a"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/15b644ba-83f4-489d-919c-8a02baf2c04d"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/070ea3bd-7053-4b5a-861f-9706f59a0881"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/a9cfcaee-35be-4288-87c7-8f07e664234f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/cfd96fb5-d73d-4576-8ecf-4edb8e1fdb23"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/ffb79986-be9c-4228-a72b-1a711d5a4a41"/>
+    </skos:member>
+</skos:Collection>
+
+</rdf:RDF>

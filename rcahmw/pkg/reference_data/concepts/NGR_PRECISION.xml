@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:arches="http://localhost:8000/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350">
+    <dcterms:title xml:lang="en">{"id": "cea8d1b5-1621-4d7e-aba6-99c0b9609dd3", "value": "NGR Precision"}</dcterms:title>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b6bce7c1-b118-4caf-8f52-7853efce0cb3"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/515b31e9-124e-4a9c-9c84-a1dda65e9e57"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6fdd5044-f43f-4464-a0f4-2da2e6849dcc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/06fe0365-e3c5-431a-9513-15d345e4774d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e1840517-5d98-4c62-b807-017c387c4b8f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6d41356b-4e95-4fae-a5f0-a0acc78c008a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/87244e99-7ecd-4fb5-9c3f-12dc7f327203"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/dc31efb8-3080-4eeb-aa4f-3ec26e5acc5d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2c4a027d-c9da-4a4b-b195-6211afd29852"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/30a45a08-ac3e-4b9b-b7c4-879ff4fe84a7"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://localhost:8000/6fdd5044-f43f-4464-a0f4-2da2e6849dcc">
+    <skos:prefLabel xml:lang="cy">{"id": "086c4891-b2de-4394-b824-efd11fb04ed6", "value": "TROSWYD O SYSTEM GYFEIRIO ARALL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <skos:scopeNote xml:lang="en">{"id": "91d665f6-ea77-4acf-87fe-8050e3b58940", "value": "Grid reference converted from a reference system other than the British National Grid, such as WGS84 and other altitude and longitude based projections."}</skos:scopeNote>
+    <arches:sortorder xml:lang="en">{"id": "4a776250-be4d-4936-8909-3d958c89352f", "value": "1"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "c8063065-42f1-4c8c-8480-ffccc7ab3c0f", "value": "Converted from other reference system"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/87244e99-7ecd-4fb5-9c3f-12dc7f327203">
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <skos:scopeNote xml:lang="en">{"id": "29509f8b-9abc-4f18-bd62-a14404b111c6", "value": "The grid reference is taken from the centre of a site or complex that cover a large area of land. For example a colliery site or field system."}</skos:scopeNote>
+    <arches:sortorder xml:lang="en">{"id": "61040ec1-7253-4a6e-8c12-9d9cc70db16f", "value": "2"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "90975221-7c57-445a-82ba-d4df75aa64bc", "value": "Group or complex centred"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "9d6e439d-8bba-455e-a59c-2d7695824a89", "value": "YN CANOLI AR GR\u0174P NEU GYMHLYG"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b6bce7c1-b118-4caf-8f52-7853efce0cb3">
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <arches:sortorder xml:lang="en">{"id": "fde0b5fb-bfd9-4043-8fc1-443be635f797", "value": "3"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "3962350c-0e80-4a92-a645-817557598f0e", "value": "Converted from other spatial reference system"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "582dc799-bb4a-4007-bf13-34c21d13405a", "value": "TROSWYD O SYSTEM ARALL O GYFEIRIADAU GOFODOL"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "a966e304-32d2-450d-8adb-d690cc378cc5", "value": "A grid reference converted from a spatial reference system other that the British National Grid, such as WGS84."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e1840517-5d98-4c62-b807-017c387c4b8f">
+    <skos:prefLabel xml:lang="cy">{"id": "a1cae4db-ff9d-49e5-8427-642989fb2ce0", "value": "NODWEDD-GANOLOG"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <arches:sortorder xml:lang="en">{"id": "9bef26d7-2058-4987-b734-159a50f05149", "value": "4"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "8f116ba6-eaaf-4e4f-a3ba-eda8934c6660", "value": "Feature centred"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "71cf8261-0a62-451c-99e7-6b3c2f59ba3b", "value": "The grid reference is centred on an individual site."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/515b31e9-124e-4a9c-9c84-a1dda65e9e57">
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <skos:scopeNote xml:lang="en">{"id": "6c9658c3-d098-49f3-b1ef-48b85f2021e9", "value": "The location is only known to lie within an area 5km by 5km as defined by British National Grid map sheet reference."}</skos:scopeNote>
+    <arches:sortorder xml:lang="en">{"id": "b16f401b-1466-4c7c-a3aa-c9c1f499ae0a", "value": "5"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "63f5f6dd-6fc3-4bb5-8294-039b56867a04", "value": "Corner of 5km sheet"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "7b98448d-d78e-40fd-ac3d-e6fcbb5fc6c7", "value": "CORNEL O DDALEN 5KM"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/dc31efb8-3080-4eeb-aa4f-3ec26e5acc5d">
+    <arches:sortorder xml:lang="en">{"id": "95f68168-1030-4b82-83cd-0ebdfaf1e0c9", "value": "6"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "0d4eda09-70e9-4e6b-a932-c692995c52f1", "value": "Corner of km square"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "43ec680d-3060-4c6b-9eb2-5ab505d12d4e", "value": "CORNEL O SGW\u00c2R KM"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "02ebe549-e0e5-4c09-b41d-af590eeb06e6", "value": "The location is only known to lie within an area 1km by 1km as defined by British National Grid map sheet square."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/30a45a08-ac3e-4b9b-b7c4-879ff4fe84a7">
+    <skos:prefLabel xml:lang="cy">{"id": "14400615-bd0e-4c3b-99d0-05cbdd83b50f", "value": "UNIONLIN"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "49415328-6c4e-4a53-a9ee-a98b54f2b79c", "value": "Linear"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "41b36bef-5c65-4285-b482-726016dde20c", "value": "7"}</arches:sortorder>
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <skos:scopeNote xml:lang="en">{"id": "8e913be4-1dfb-48c5-b075-a86ca7b4d5d4", "value": "The grid reference refers to a point along a linear site."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6d41356b-4e95-4fae-a5f0-a0acc78c008a">
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <skos:prefLabel xml:lang="cy">{"id": "f9bd28f2-f747-4229-97dc-26f607d9790c", "value": "ARDAL-GANOLOG"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "844fbf7f-e151-47a3-bdb3-3eb048e62507", "value": "8"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "7676c1ca-8b25-4965-927f-f9d073ab8a46", "value": "Area centred"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "a06e0ca4-519f-45c9-acc5-1e095bd2bebc", "value": "The grid reference is centred on an area, such as the centre of a project polygon, or a land boundary (e.g. estate, HLC area, national park boundary etc.)."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/06fe0365-e3c5-431a-9513-15d345e4774d">
+    <skos:prefLabel xml:lang="cy">{"id": "0c414d38-3de1-4ba7-aa35-d20ac5d41bad", "value": "RHYW"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <skos:prefLabel xml:lang="en">{"id": "bd356582-9305-4e32-84e9-de1cd7821bc9", "value": "Approximate"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "09c127ed-81a6-491e-8a0a-f7177a31de3d", "value": "The grid reference is approximate because of the lack of locational information."}</skos:scopeNote>
+    <arches:sortorder xml:lang="en">{"id": "0b56fd04-de45-4b58-bffc-989231012ca1", "value": "9"}</arches:sortorder>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2c4a027d-c9da-4a4b-b195-6211afd29852">
+    <arches:sortorder xml:lang="en">{"id": "e6736ba2-df1d-4b65-95ce-e22b8065e75b", "value": "10"}</arches:sortorder>
+    <skos:inScheme rdf:resource="http://localhost:8000/2e9fe666-a735-418c-9793-462bf04a2350"/>
+    <skos:prefLabel xml:lang="cy">{"id": "17616de8-6e78-491a-8afa-830ff2138ae0", "value": "ISRADDIWYD"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "de1f9652-d6cb-4506-8437-9ed88f70b6ff", "value": "The grid reference has been downgraded to 4 figures. Often the case for findspots and other sensitive sites."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c8ac4c7d-4ba8-48d4-897e-15403d838181", "value": "Downgraded"}</skos:prefLabel>
+  </skos:Concept>
+  
+  <skos:Collection rdf:about="http://localhost:8000/66ad70c3-6739-4572-8ea7-bb7102772a93">
+    <skos:prefLabel xml:lang="en">{"id": "68c59f20-d8c6-4842-80f3-7e8dbf6aab74", "value":
+      "NGR Precision"}</skos:prefLabel>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/b6bce7c1-b118-4caf-8f52-7853efce0cb3"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/515b31e9-124e-4a9c-9c84-a1dda65e9e57"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/6fdd5044-f43f-4464-a0f4-2da2e6849dcc"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/06fe0365-e3c5-431a-9513-15d345e4774d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e1840517-5d98-4c62-b807-017c387c4b8f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/6d41356b-4e95-4fae-a5f0-a0acc78c008a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/87244e99-7ecd-4fb5-9c3f-12dc7f327203"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/dc31efb8-3080-4eeb-aa4f-3ec26e5acc5d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/2c4a027d-c9da-4a4b-b195-6211afd29852"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/30a45a08-ac3e-4b9b-b7c4-879ff4fe84a7"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>

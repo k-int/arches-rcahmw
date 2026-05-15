@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26">
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/105d8d0b-d173-4824-86c9-b572ae402d33"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f04ec413-bfb0-4655-a02a-dbf2b2b05b74"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/444b6617-4fea-41a2-be4d-5e30768efaa5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/062a33aa-ddc8-4043-9454-bec250ecad1e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/93e4aa5d-605b-48d3-9ca1-6d28f83cb001"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2011501f-a7bf-4eab-85ec-3c14ba382f98"/>
+    <dcterms:identifier xml:lang="en">{"id": "7ae843b2-86f6-4cb4-934b-0b0d679895d0", "value": "http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26"}</dcterms:identifier>
+    <dcterms:title xml:lang="en">{"id": "0bad66df-7eed-49ff-a329-4ea78aae42bb", "value": "Cross Reference Source"}</dcterms:title>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://localhost:8000/105d8d0b-d173-4824-86c9-b572ae402d33">
+    <skos:prefLabel xml:lang="en">{"id": "fb3a2636-8292-49e7-a86d-ac7de2f591a9", "value": "Amgueddfa Cymru - National Museum Wales"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "3bfb7045-ba03-4d78-af82-ff30756b0d16", "value": "Amgueddfa Cymru - National Museum Wales"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26"/>
+  </skos:Concept> 
+  <skos:Concept rdf:about="http://localhost:8000/f04ec413-bfb0-4655-a02a-dbf2b2b05b74">
+    <skos:inScheme rdf:resource="http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26"/>
+    <skos:prefLabel xml:lang="en">{"id": "8b140696-4722-4ef0-b959-d493e9970a4d", "value": "Clwyd-Powys Historic Environment Record"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "c63acb31-f7c1-490a-b7b1-a714ba38521b", "value": "Ymddiriedolaeth Archaeolegol Clwyd-Powys"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/444b6617-4fea-41a2-be4d-5e30768efaa5">
+    <skos:prefLabel xml:lang="en">{"id": "7392fc95-d2ba-4ac9-a33c-9028d817790c", "value": "Dyfed Historic Environment Record"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "91075260-3957-4aa5-9f42-f1a68c82819c", "value": "Ymddiriedolaeth Archaeolegol Dyfed"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/062a33aa-ddc8-4043-9454-bec250ecad1e">
+    <skos:inScheme rdf:resource="http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26"/>
+    <skos:prefLabel xml:lang="en">{"id": "4184db20-03ee-425d-8a97-935cf9370605", "value": "Glamorgan-Gwent Historic Environment Record"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "2a538436-a426-4a07-a10b-a9a6bef93746", "value": "Ymddiriedolaeth Archaeolegol Morgannwg-Gwent"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/93e4aa5d-605b-48d3-9ca1-6d28f83cb001">
+    <skos:prefLabel xml:lang="en">{"id": "e8b14e21-a649-4c6f-a932-88117c0f4e21", "value": "Gwynedd Historic Environment Record"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-us">{"id": "e8b14e21-a649-4c6f-a932-88117c0f4e21", "value": "Gwynedd Historic Environment Record"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2011501f-a7bf-4eab-85ec-3c14ba382f98">
+    <skos:inScheme rdf:resource="http://localhost:8000/9ca0456d-246e-4b67-9591-0c554eb1df26"/>
+    <skos:prefLabel xml:lang="en">{"id": "db6bc80a-86f6-46ee-8362-188b4132d180", "value": "UK Hydrographic Office"}</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Collection rdf:about="http://localhost:8000/06bbe5d2-93e8-43df-a4f4-5667648fd2ef">
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/105d8d0b-d173-4824-86c9-b572ae402d33"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/f04ec413-bfb0-4655-a02a-dbf2b2b05b74"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/444b6617-4fea-41a2-be4d-5e30768efaa5"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/062a33aa-ddc8-4043-9454-bec250ecad1e"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/93e4aa5d-605b-48d3-9ca1-6d28f83cb001"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/2011501f-a7bf-4eab-85ec-3c14ba382f98"/>
+    </skos:member>
+</skos:Collection>
+
+
+</rdf:RDF>

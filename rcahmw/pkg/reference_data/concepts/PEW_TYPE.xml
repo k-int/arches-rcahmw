@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/56aa2e6e-0a14-4d8b-881f-f2c4ce422ab0">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/5127b828-6183-4795-a8b8-0d1ccafcbc5d">
+        <dcterms:title xml:lang="en">{"id": "4468fe1a-e8cb-4774-bbc7-a464194d9534", "value": "Pew Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/84c2da7b-3a83-455b-be61-4f268e5ebbf3"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/212a8008-43e6-47eb-b9eb-d4fc72c597d1"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/56aa2e6e-0a14-4d8b-881f-f2c4ce422ab0"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "f5e1d609-dda9-4555-a8c4-1fbe7e8d6461", "value": "Chairs"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/212a8008-43e6-47eb-b9eb-d4fc72c597d1">
+    <skos:inScheme rdf:resource="http://localhost:8000/5127b828-6183-4795-a8b8-0d1ccafcbc5d"/>
+    <skos:prefLabel xml:lang="en">{"id": "e9b0f80a-327f-4471-b306-06be73854f94", "value": "Bench"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/84c2da7b-3a83-455b-be61-4f268e5ebbf3">
+    <skos:inScheme rdf:resource="http://localhost:8000/5127b828-6183-4795-a8b8-0d1ccafcbc5d"/>
+    <skos:prefLabel xml:lang="en">{"id": "79e8124c-e382-4e9f-9810-2ed66be40938", "value": "Box"}</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Collection rdf:about="http://localhost:8000/347ded4a-e5e7-44b1-b8a5-ad84fcfbb129">
+    <skos:prefLabel xml:lang="en">{"id": "58df512b-09d5-48ff-af1a-afb29f492bec", "value": "Pew Type"}</skos:prefLabel>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/84c2da7b-3a83-455b-be61-4f268e5ebbf3"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/56aa2e6e-0a14-4d8b-881f-f2c4ce422ab0"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/212a8008-43e6-47eb-b9eb-d4fc72c597d1"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>

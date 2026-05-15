@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/84d6be18-9e93-4b03-aac2-02c4c34b777a">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/5dbf5860-2801-4732-a4c8-99917ae76e12">
+        <skos:prefLabel xml:lang="en">{"id": "b5b6fd27-1085-49b4-a1bf-9da09e7dbc9a", "value": "Tub"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/84d6be18-9e93-4b03-aac2-02c4c34b777a"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "7dc49dd0-b3fd-4b2a-b8be-9da757eba9aa", "value": "Pulpit Type"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/e6104450-99a0-4794-9e8d-e9a9a8dfd6a0">
+        <skos:inScheme rdf:resource="http://localhost:8000/84d6be18-9e93-4b03-aac2-02c4c34b777a"/>
+        <skos:prefLabel xml:lang="en">{"id": "623b9768-9ac7-454f-8794-76b3ef82e042", "value": "Wineglass"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/cb6f5329-1640-421d-89b6-0db47e62efd7">
+        <skos:inScheme rdf:resource="http://localhost:8000/84d6be18-9e93-4b03-aac2-02c4c34b777a"/>
+        <skos:prefLabel xml:lang="en">{"id": "43de130b-0182-4a0c-b480-7aae63188fef", "value": "Dias"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+
+  <skos:Collection rdf:about="http://localhost:8000/2b961685-145e-48ac-8e86-f549df1f1dfd">
+    <skos:prefLabel xml:lang="en">{"id": "174266cf-3ca6-46d8-b993-8579a6159be0", "value": "Pulpit Type"}</skos:prefLabel>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/cb6f5329-1640-421d-89b6-0db47e62efd7"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/e6104450-99a0-4794-9e8d-e9a9a8dfd6a0"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/5dbf5860-2801-4732-a4c8-99917ae76e12"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>
