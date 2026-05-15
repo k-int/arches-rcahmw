@@ -2,6 +2,7 @@
 from django.core.management.base import BaseCommand, CommandError
 from arches.app.models.models import Concept
 
+
 class Command(BaseCommand):
 
     def handle(self, *arg, **options):
@@ -61,5 +62,5 @@ class Command(BaseCommand):
             "c741c68b-779e-4cfb-8a50-70c2c45f81aa",
             "f4ea3e4c-44c0-4107-994f-1461f7a64d33",
         ]
-        
+
         Concept.objects.filter(conceptid__in=concepts_to_delete).delete()
