@@ -13571,16 +13571,16 @@
                     "config": {
                         "descriptor_types": {
                             "description": {
-                                "nodegroup_id": "ba342e69-b554-11ea-a027-f875a44e0e11",
-                                "string_template": "<Description>"
+                                "nodegroup_id": "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
+                                "string_template": "<Monument Name>"
                             },
                             "map_popup": {
                                 "nodegroup_id": "ba342e69-b554-11ea-a027-f875a44e0e11",
                                 "string_template": "<Description>"
                             },
                             "name": {
-                                "nodegroup_id": "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
-                                "string_template": "<Monument Name>"
+                                "nodegroup_id": "325a2f2f-efe4-11eb-9b0c-a87eeabdefba",
+                                "string_template": "<Primary Reference Number>"
                             }
                         },
                         "triggering_nodegroups": []
