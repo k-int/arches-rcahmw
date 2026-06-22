@@ -1296,7 +1296,7 @@
                         "en": "Primary Reference Number Metatype"
                     },
                     "node_id": "325a2f34-efe4-11eb-a003-a87eeabdefba",
-                    "sortorder": 8,
+                    "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1354,7 +1354,7 @@
                         "en": "ResourceID Metatype"
                     },
                     "node_id": "325a430b-efe4-11eb-95a5-a87eeabdefba",
-                    "sortorder": 2,
+                    "sortorder": 5,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1376,7 +1376,7 @@
                         "en": "ResourceID Type"
                     },
                     "node_id": "325a441a-efe4-11eb-9531-a87eeabdefba",
-                    "sortorder": 1,
+                    "sortorder": 4,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1398,7 +1398,7 @@
                         "en": "Legacy ID Type"
                     },
                     "node_id": "325a441b-efe4-11eb-872d-a87eeabdefba",
-                    "sortorder": 4,
+                    "sortorder": 7,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1436,7 +1436,7 @@
                             "prefix",
                             "suffix"
                         ],
-                        "label": "Primary Reference Number",
+                        "label": "National Primary Reference Number",
                         "max": "",
                         "min": "",
                         "placeholder": {
@@ -1455,10 +1455,10 @@
                     },
                     "id": "325a4423-efe4-11eb-88f1-a87eeabdefba",
                     "label": {
-                        "en": "Primary Reference Number"
+                        "en": "National Primary Reference Number"
                     },
                     "node_id": "325a2f33-efe4-11eb-b0bb-a87eeabdefba",
-                    "sortorder": 6,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
@@ -1480,7 +1480,7 @@
                         "en": "Primary Reference Number Type"
                     },
                     "node_id": "325a2f35-efe4-11eb-b2d5-a87eeabdefba",
-                    "sortorder": 7,
+                    "sortorder": 1,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1509,7 +1509,7 @@
                         "en": "ResourceID"
                     },
                     "node_id": "325a430a-efe4-11eb-810b-a87eeabdefba",
-                    "sortorder": 0,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1562,7 +1562,7 @@
                         "en": "Legacy ID"
                     },
                     "node_id": "325a441c-efe4-11eb-9283-a87eeabdefba",
-                    "sortorder": 3,
+                    "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1584,7 +1584,7 @@
                         "en": "Legacy ID Metatype"
                     },
                     "node_id": "325a4419-efe4-11eb-9e0e-a87eeabdefba",
-                    "sortorder": 5,
+                    "sortorder": 8,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
