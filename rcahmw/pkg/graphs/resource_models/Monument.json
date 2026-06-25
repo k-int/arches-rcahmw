@@ -18101,7 +18101,7 @@
                 {
                     "alias": "monument_type",
                     "config": {
-                        "rdmCollection": "b82ee4cf-2f90-4dab-bed7-bda3feaf6d64"
+                        "rdmCollection": "b8ffc17c-bf1b-47d3-9618-4ff62095ea43"
                     },
                     "datatype": "concept-list",
                     "description": null,
