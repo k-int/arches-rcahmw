@@ -1284,6 +1284,27 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "55d8a0f4-049c-11eb-8965-f875a44e0e11",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Component End Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "0f052a66-1f90-4953-bc00-42627a36fad1",
+                    "label": {
+                        "en": "Component End Date"
+                    },
+                    "node_id": "da795724-7950-11f1-8a3d-35703636ae82",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
                     "card_id": "87d39b1e-f44f-11eb-8ba0-a87eeabdefba",
                     "config": {
                         "defaultValue": "",
@@ -1908,6 +1929,27 @@
                     "sortorder": 7,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "55d8a0f4-049c-11eb-8965-f875a44e0e11",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Component Start Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "4a32b1c7-8717-4c65-a0f1-a1d09af18991",
+                    "label": {
+                        "en": "Component Start Date"
+                    },
+                    "node_id": "3b539f92-7950-11f1-8a3d-35703636ae82",
+                    "sortorder": 9,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
                     "card_id": "55d8a0f4-049c-11eb-8965-f875a44e0e11",
