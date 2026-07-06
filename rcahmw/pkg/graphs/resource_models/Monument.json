@@ -10034,6 +10034,15 @@
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
                     "rangenode_id": "3fe4b1e8-04a1-11eb-adf5-f875a44e0e11"
                 },
+                                {
+                    "description": null,
+                    "domainnode_id": "77e8f287-efdc-11eb-a790-a87eeabdefba",
+                    "edgeid": "4140c9a8-b9c2-4a6e-bb87-18939b11bad0",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "e5f752d4-7948-11f1-8a3d-35703636ae82"
+                },
                 {
                     "description": null,
                     "domainnode_id": "9e787634-049c-11eb-b0f4-f875a44e0e11",
@@ -11140,6 +11149,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
                     "rangenode_id": "6af2a0cb-efc5-11eb-8436-a87eeabdefba"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "77e8f287-efdc-11eb-a790-a87eeabdefba",
+                    "edgeid": "6b43357e-93c7-4472-9ec6-d960f46f4331",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "2543ed94-7949-11f1-8a3d-35703636ae82"
                 },
                 {
                     "description": null,
@@ -14322,6 +14340,29 @@
                     "name": "Construction Technique Metatype",
                     "nodegroup_id": "55d6a53e-049c-11eb-8618-f875a44e0e11",
                     "nodeid": "0efa33e8-049e-11eb-bc30-f875a44e0e11",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "plan_type",
+                    "config": {
+                        "rdmCollection": "39ecd2a5-adb6-4323-a2bd-355320e5c92c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Plan Type",
+                    "nodegroup_id": "77e8f287-efdc-11eb-a790-a87eeabdefba",
+                    "nodeid": "2543ed94-7949-11f1-8a3d-35703636ae82",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
@@ -24188,6 +24229,29 @@
                     "nodeid": "e1978234-0690-11f1-af5c-39a6bac5dceb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "architectural_style",
+                    "config": {
+                        "rdmCollection": "d20f11f8-8df2-41ce-9cff-f23ea16f50df"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Architectural Style",
+                    "nodegroup_id": "77e8f287-efdc-11eb-a790-a87eeabdefba",
+                    "nodeid": "e5f752d4-7948-11f1-8a3d-35703636ae82",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
