@@ -14,6 +14,8 @@
     <skos:hasTopConcept rdf:resource="http://localhost:8000/070ea3bd-7053-4b5a-861f-9706f59a0881"/>
     <skos:hasTopConcept rdf:resource="http://localhost:8000/cfd96fb5-d73d-4576-8ecf-4edb8e1fdb23"/>
     <skos:hasTopConcept rdf:resource="http://localhost:8000/15b644ba-83f4-489d-919c-8a02baf2c04d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/03d2e615-7d98-46b5-9190-d3ef0d0390fb"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8da7bacb-4d19-4808-a326-ee66aca3e4a8"/>
   </skos:ConceptScheme>
 
   <skos:Concept rdf:about="http://localhost:8000/cfd96fb5-d73d-4576-8ecf-4edb8e1fdb23">
@@ -40,8 +42,18 @@
     <skos:prefLabel xml:lang="en">{"id": "d0444dc5-bec8-4279-bdc6-3e5521e97ee9", "value": "Associated with"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
   </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/03d2e615-7d98-46b5-9190-d3ef0d0390fb">
+    <skos:prefLabel xml:lang="en">{"id": "ffdd6686-96fa-4acf-96cd-ae6d5e7f3a49", "value": "Parent of"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8da7bacb-4d19-4808-a326-ee66aca3e4a8">
+    <skos:prefLabel xml:lang="en">{"id": "5831f5b4-4c2b-470c-bf6f-fdcab73c7635", "value": "Child of"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0a9c2801-53e7-465a-9b50-d196f58f540d"/>
+  </skos:Concept>
+
 
   <skos:Collection rdf:about="http://localhost:8000/93362f59-3658-47d8-8781-253fcf06374e">
+    <skos:prefLabel xml:lang="en">{"id": "df2edd19-0644-485f-95aa-d9dfbbe579cc", "value": "Association Type"}</skos:prefLabel>
     <skos:member>
     <skos:Concept rdf:about="http://localhost:8000/ce7ba1ba-6f14-44ea-bfff-a081409f6f3a"/>
     </skos:member>
@@ -59,6 +71,12 @@
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://localhost:8000/ffb79986-be9c-4228-a72b-1a711d5a4a41"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/03d2e615-7d98-46b5-9190-d3ef0d0390fb"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/8da7bacb-4d19-4808-a326-ee66aca3e4a8"/>
     </skos:member>
 </skos:Collection>
 
