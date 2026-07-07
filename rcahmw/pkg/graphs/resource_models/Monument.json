@@ -1305,6 +1305,27 @@
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
+                    "card_id": "da107d96-6fb9-11f1-8a3c-35703636ae82",
+                    "config": {
+                        "displayOnlySelectedNode": false,
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Associated Monument Construction Phase",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2883a267-4ea5-478e-97ea-aedbab9517af",
+                    "label": {
+                        "en": "Associated Monument Construction Phase"
+                    },
+                    "node_id": "09eb8280-79f5-11f1-8a3d-35703636ae82",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "f5d6b190-bbf0-4dc9-b991-1debab8cb4a9"
+                },
+                {
                     "card_id": "87d39b1e-f44f-11eb-8ba0-a87eeabdefba",
                     "config": {
                         "defaultValue": "",
@@ -8989,6 +9010,27 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "da107d96-6fb9-11f1-8a3c-35703636ae82",
+                    "config": {
+                        "displayOnlySelectedNode": false,
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Associated Component",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "a66f2349-2ce9-47c0-93fb-9ecf5a3a1cab",
+                    "label": {
+                        "en": "Associated Component"
+                    },
+                    "node_id": "2d563c4e-79f8-11f1-8a3d-35703636ae82",
+                    "sortorder": 8,
+                    "visible": true,
+                    "widget_id": "f5d6b190-bbf0-4dc9-b991-1debab8cb4a9"
+                },
+                {
                     "card_id": "b2133e65-efdc-11eb-992a-a87eeabdefba",
                     "config": {
                         "defaultValue": "",
@@ -13066,6 +13108,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "da107d9a-6fb9-11f1-8a3c-35703636ae82",
+                    "edgeid": "8eba749c-0163-43c8-a54b-2f2794431a69",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O12i_is_dimension_of",
+                    "rangenode_id": "2d563c4e-79f8-11f1-8a3d-35703636ae82"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "95a4375e-5cf4-11ec-9175-a87eeabdefba",
                     "edgeid": "95a46038-5cf4-11ec-ac36-a87eeabdefba",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
@@ -13840,6 +13891,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "da107d9a-6fb9-11f1-8a3c-35703636ae82",
+                    "edgeid": "e32a5145-8622-4946-af34-9bc098ac2480",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O12i_is_dimension_of",
+                    "rangenode_id": "09eb8280-79f5-11f1-8a3d-35703636ae82"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "55d6a53e-049c-11eb-8618-f875a44e0e11",
                     "edgeid": "ead40e22-7a40-4a03-ac7b-255e7c5d1292",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
@@ -14433,6 +14493,30 @@
                     "sourcebranchpublication_id": null
                 },
                 {
+                    "alias": "associated_monument_construction_phase_n1",
+                    "config": {
+                        "nodeid": "77e90834-efdc-11eb-b2b9-a87eeabdefba",
+                        "property": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                    },
+                    "datatype": "node-value",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Associated Monument Construction Phase",
+                    "nodegroup_id": "da107d95-6fb9-11f1-8a3c-35703636ae82",
+                    "nodeid": "09eb8280-79f5-11f1-8a3d-35703636ae82",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E12_Production",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O12i_is_dimension_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
                     "alias": "construction_technique_metatype",
                     "config": {
                         "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
@@ -14498,6 +14582,30 @@
                     "nodeid": "25a78776-0691-11f1-af5c-39a6bac5dceb",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "associated_component",
+                    "config": {
+                        "nodeid": "46cd4b7e-049d-11eb-ba3a-f875a44e0e11",
+                        "property": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                    },
+                    "datatype": "node-value",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Associated Component",
+                    "nodegroup_id": "da107d95-6fb9-11f1-8a3c-35703636ae82",
+                    "nodeid": "2d563c4e-79f8-11f1-8a3d-35703636ae82",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E25_Human-Made_Feature",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O12i_is_dimension_of",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
