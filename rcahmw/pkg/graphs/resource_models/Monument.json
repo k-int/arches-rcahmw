@@ -1195,6 +1195,27 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
+                    "card_id": "676d47fb-9c1c-11ea-8997-f875a44e0e11",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Monument Name Start",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "02c44e45-a5f5-4b7a-a6b0-2618892324ce",
+                    "label": {
+                        "en": "Monument Name Start"
+                    },
+                    "node_id": "c4ffb440-7ab0-11f1-8a3d-35703636ae82",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
                     "card_id": "055b3e41-04c7-11eb-9c3f-f875a44e0e11",
                     "config": {
                         "defaultResourceInstance": [],
@@ -3321,7 +3342,7 @@
                         "en": "Name Use Metatype"
                     },
                     "node_id": "676d4801-9c1c-11ea-8d11-f875a44e0e11",
-                    "sortorder": 6,
+                    "sortorder": 5,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3343,7 +3364,7 @@
                         "en": "Name Currency Metatype"
                     },
                     "node_id": "676d4802-9c1c-11ea-a30f-f875a44e0e11",
-                    "sortorder": 8,
+                    "sortorder": 6,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3384,14 +3405,14 @@
                         "placeholder": {
                             "en": "Select an option"
                         },
-                        "url": "/en/concepts/dropdown?conceptid=a346ee99-67f6-44cd-87f7-b564ce32cdf3"
+                        "url": "/concepts/dropdown?conceptid=a346ee99-67f6-44cd-87f7-b564ce32cdf3"
                     },
                     "id": "676d4805-9c1c-11ea-a899-f875a44e0e11",
                     "label": {
                         "en": "Currency"
                     },
                     "node_id": "676d47fd-9c1c-11ea-9d73-f875a44e0e11",
-                    "sortorder": 7,
+                    "sortorder": 9,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000009"
                 },
@@ -3505,7 +3526,7 @@
                         "en": "Name Use Type"
                     },
                     "node_id": "676d47fc-9c1c-11ea-b5b0-f875a44e0e11",
-                    "sortorder": 5,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -9328,6 +9349,27 @@
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
+                    "card_id": "676d47fb-9c1c-11ea-8997-f875a44e0e11",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Monument Name End",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "b937a41f-a3a7-4b6e-9897-9c33ddad32b1",
+                    "label": {
+                        "en": "Monument Name End"
+                    },
+                    "node_id": "66e966a2-7ab1-11f1-8a3d-35703636ae82",
+                    "sortorder": 8,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
                     "card_id": "ba345576-b554-11ea-9aa7-f875a44e0e11",
                     "config": {
                         "defaultValue": "",
@@ -9985,6 +10027,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "c3db6a06-7aaf-11f1-8a3d-35703636ae82",
+                    "edgeid": "140ee0c7-ec01-469a-9862-f5761b5d0c19",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "66e966a2-7ab1-11f1-8a3d-35703636ae82"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "87d3872b-f44f-11eb-bd0c-a87eeabdefba",
                     "edgeid": "1af47fc8-d205-4eb2-8d32-d7084b236607",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
@@ -10270,6 +10321,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "678a32cc-fdc4-11f0-af5c-39a6bac5dceb"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
+                    "edgeid": "4d989a61-20ef-45f2-b989-81097f1b6321",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
+                    "rangenode_id": "c3db6a06-7aaf-11f1-8a3d-35703636ae82"
                 },
                 {
                     "description": null,
@@ -13873,6 +13933,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "c3db6a06-7aaf-11f1-8a3d-35703636ae82",
+                    "edgeid": "df5ddd0a-fa9c-41c3-8edc-ceb0951bcdfe",
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "c4ffb440-7ab0-11f1-8a3d-35703636ae82"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "076f9380-7b00-11e9-88c8-80000b44d1d9",
                     "edgeid": "e0991c1f-51b4-11eb-bc26-f875a44e0e11",
                     "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
@@ -16983,6 +17052,35 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of",
                     "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "monument_name_end",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Monument Name End",
+                    "nodegroup_id": "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
+                    "nodeid": "66e966a2-7ab1-11f1-8a3d-35703636ae82",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 1,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -24245,6 +24343,58 @@
                     "nodeid": "bdd57f54-04a1-11eb-bede-f875a44e0e11",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E57_Material",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P45_consists_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "monument_name_timespan",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Monument Name Timespan",
+                    "nodegroup_id": "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
+                    "nodeid": "c3db6a06-7aaf-11f1-8a3d-35703636ae82",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "monument_name_start",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Monument Name Start",
+                    "nodegroup_id": "676d47f9-9c1c-11ea-9aa0-f875a44e0e11",
+                    "nodeid": "c4ffb440-7ab0-11f1-8a3d-35703636ae82",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
