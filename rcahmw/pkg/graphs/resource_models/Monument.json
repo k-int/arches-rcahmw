@@ -24290,7 +24290,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "measurement_unit_metatype",
@@ -24313,7 +24313,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "dimension_type_qualifier_metatype",
@@ -24336,7 +24336,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "dimension_metatype",
@@ -24359,7 +24359,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "dimension",
@@ -24380,7 +24380,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "dimension_type_qualifier",
@@ -24403,7 +24403,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "dimension_type",
@@ -24426,7 +24426,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "dimension_value",
@@ -24447,7 +24447,7 @@
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "dimension_measurement_unit",
@@ -24470,7 +24470,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "b6569564-6fb9-11f1-8a3c-35703636ae82"
+                    "sourcebranchpublication_id": null
                 },
                  {
                     "alias": "component_end_date",
