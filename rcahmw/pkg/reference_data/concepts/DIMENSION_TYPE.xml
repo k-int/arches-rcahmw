@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <skos:ConceptScheme rdf:about="http://localhost:8000/a36a2686-a809-4195-9c5d-b578a1a51508">
+
+            <!-- Add Cost and Capacity -->
+            <dcterms:identifier xml:lang="en">{"id": "efeced9a-097e-4fe5-9871-48101968c406", "value": "http://localhost:8000/a36a2686-a809-4195-9c5d-b578a1a51508"}</dcterms:identifier>
+            
+            <skos:hasTopConcept>
+                <skos:Concept rdf:about="http://localhost:8000/ab9b8d15-2711-421c-8aa2-38dd63f0c03d">
+                    <skos:prefLabel xml:lang="en">{"id": "3b83bc13-6875-49d3-af9b-f49a1426d755", "value": "Cost"}</skos:prefLabel>
+                    <skos:inScheme rdf:resource="http://localhost:8000/a36a2686-a809-4195-9c5d-b578a1a51508"/>
+                </skos:Concept>
+            </skos:hasTopConcept>
+
+            <skos:hasTopConcept>
+                <skos:Concept rdf:about="http://localhost:8000/91a80f08-2834-4d6e-a839-1a1edf5ba605">
+                    <skos:prefLabel xml:lang="en">{"id": "ad5d8355-a8b0-4a10-bfda-28356faf4794", "value": "Capacity"}</skos:prefLabel>
+                    <skos:inScheme rdf:resource="http://localhost:8000/a36a2686-a809-4195-9c5d-b578a1a51508"/>
+                </skos:Concept>
+            </skos:hasTopConcept>
+
+            <skos:hasTopConcept>
+                <skos:Concept rdf:about="http://localhost:8000/d9f2a08c-f08c-44ef-bc75-524a166d11d9">
+                    <skos:prefLabel xml:lang="en">{"id": "66420386-5fa0-4cac-a62a-22066bdc5107", "value": "Storeys"}</skos:prefLabel>
+                    <skos:inScheme rdf:resource="http://localhost:8000/a36a2686-a809-4195-9c5d-b578a1a51508"/>
+                </skos:Concept>
+            </skos:hasTopConcept>
+
+        </skos:ConceptScheme>
+
+        <skos:Collection rdf:about="http://localhost:8000/df735209-a20a-483b-a1ec-6ca3790de557">
+            <skos:prefLabel xml:lang="en">{"id": "6b276f0d-475c-473f-906a-3312588e7ff9", "value": "Dimension Type"}</skos:prefLabel>
+                <skos:member>
+                    <skos:Concept rdf:about="http://localhost:8000/ab9b8d15-2711-421c-8aa2-38dd63f0c03d"/>
+                </skos:member>
+                <skos:member>
+                    <skos:Concept rdf:about="http://localhost:8000/91a80f08-2834-4d6e-a839-1a1edf5ba605"/>
+                </skos:member>
+                <skos:member>
+                    <skos:Concept rdf:about="http://localhost:8000/d9f2a08c-f08c-44ef-bc75-524a166d11d9"/>
+                </skos:member>
+        </skos:Collection>
+
+    </rdf:RDF>
