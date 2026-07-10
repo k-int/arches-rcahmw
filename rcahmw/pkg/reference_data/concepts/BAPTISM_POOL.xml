@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:arches="http://localhost:8000/"
+>
+
+<!-- Make Baptism Pool preferred label for Immersion Font and add external and internal baptism pool children -->
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8">
+    <dcterms:identifier xml:lang="en">{"id": "e1569128-e15b-4fc6-a868-61665d93a753", "value": "http://www.archesproject.org/488e13fb-62d5-3943-a915-dfa4187fe8e8"}</dcterms:identifier>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7"/>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7">
+    <dcterms:identifier xml:lang="en">{"id": "ced064c1-04da-41d8-ad0e-efad1d136e4e", "value": "http://purl.org/heritagedata/schemes/eh_com/concepts/137788"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "6b09d431-c72d-4f75-9c51-9a388556b3e7", "value": "Accessories used in furnishing and embellishing a building or structure."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "5da06b53-92e4-43e1-8221-db97d04154e9", "value": "Fixtures And Fittings"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:narrower rdf:resource="http://localhost:8000/fb278851-9d06-380f-a0f4-d59ca5d5c669"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/fb278851-9d06-380f-a0f4-d59ca5d5c669">
+    <dcterms:identifier xml:lang="en">{"id": "ced064c1-04da-41d8-ad0e-efad1d136e4e", "value": "http://purl.org/heritagedata/schemes/eh_com/concepts/137788"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "e590fd54-823a-4b22-b757-5e17e8a201ea", "value": "A receptacle to hold water used in baptism usually found in a baptistery or nave of a church."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "e4721d6d-5470-4a20-b0a6-bf32cbf7df6b", "value": "Font"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:narrower rdf:resource="http://localhost:8000/8e44a107-44fa-3cb9-8ece-6264befadeb3"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/8e44a107-44fa-3cb9-8ece-6264befadeb3">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <dcterms:identifier xml:lang="en">{"id": "c7761479-19e8-4154-9a63-a6f43516d2d6", "value": "http://purl.org/heritagedata/schemes/eh_com/concepts/159191"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "81b56e1b-0795-44f1-9459-35d6721f812b", "value": "A structure, usually sunk into the ground, for the purpose of allowing total bodily immersion as part of a baptismal ceremony."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "7a40418d-1379-4eed-8fb8-0506d5297ef9", "value": "Immersion Font"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "bef4bdd2-aeec-4f6a-9d6e-afd3f0d90c3b", "value": "Baptism Pool"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/49846c7f-8fa3-4757-b777-235b894436f7"/>
+    <skos:narrower rdf:resource="http://localhost:8000/26d3e937-6048-4899-8e9a-93a9aad3d3cd"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/49846c7f-8fa3-4757-b777-235b894436f7">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/8e44a107-44fa-3cb9-8ece-6264befadeb3"/>
+    <skos:prefLabel xml:lang="en">{"id": "cceefc4e-8352-4310-bf92-698db3eb6ccc", "value": "Internal Baptism Pool"}</skos:prefLabel>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/26d3e937-6048-4899-8e9a-93a9aad3d3cd">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/8e44a107-44fa-3cb9-8ece-6264befadeb3"/>
+    <skos:prefLabel xml:lang="en">{"id": "cf865008-db17-479a-a9a6-a806a81ac83a", "value": "External Baptism Pool"}</skos:prefLabel>
+</skos:Concept>
+
+<skos:Collection rdf:about="http://localhost:8000/1a161d2b-5887-4ad2-800e-ffa073f3b2bd">
+    <skos:prefLabel xml:lang="en">{"id": "45f3157e-cfb5-407d-8565-6f910581e281", "value": "FISH Components Thesaurus"}</skos:prefLabel>
+    
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7">
+            <skos:member>
+                <skos:Concept rdf:about="http://localhost:8000/fb278851-9d06-380f-a0f4-d59ca5d5c669">
+                    <skos:member>
+                        <skos:Concept rdf:about="http://localhost:8000/8e44a107-44fa-3cb9-8ece-6264befadeb3">
+                            <skos:member rdf:resource="49846c7f-8fa3-4757-b777-235b894436f7"/>
+                            <skos:member rdf:resource="26d3e937-6048-4899-8e9a-93a9aad3d3cd"/>
+                        </skos:Concept>
+                    </skos:member>
+                </skos:Concept>        
+            </skos:member>
+        </skos:Concept>
+    </skos:member>
+
+</skos:Collection>
+
+</rdf:RDF>
