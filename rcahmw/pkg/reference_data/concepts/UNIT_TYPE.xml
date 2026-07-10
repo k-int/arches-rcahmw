@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <dcterms:identifier xml:lang="en">{"id": "6aec6e02-6973-4a65-9032-76e3fe190469", "value": "http://www.archesproject.org/b3612595-fdad-48e0-a0ff-b380685aa6f3"}</dcterms:identifier>
+
+    <skos:ConceptScheme rdf:about="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3">
+        <dcterms:identifier xml:lang="en">{"id": "6aec6e02-6973-4a65-9032-76e3fe190469", "value": "http://www.archesproject.org/b3612595-fdad-48e0-a0ff-b380685aa6f3"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e4cad321-5269-4f63-b8bd-68c77ab1daf7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/27e6511b-004d-4164-8648-c9e257c51bda"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/99f0ec48-7f6b-46bb-9d04-a7103824f1bc"/>
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://localhost:8000/e4cad321-5269-4f63-b8bd-68c77ab1daf7">
+        <skos:prefLabel xml:lang="en">Currencies</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3"/>
+        <skos:topConceptOf rdf:resource="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3"/>
+        <skos:narrower rdf:resource="http://localhost:8000/47b1e453-bb56-451d-8cda-fdcda0826818"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://localhost:8000/47b1e453-bb56-451d-8cda-fdcda0826818">
+        <skos:prefLabel xml:lang="en">Pound Sterling (GBP)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3"/>
+        <skos:broader rdf:resource="http://localhost:8000/e4cad321-5269-4f63-b8bd-68c77ab1daf7"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://localhost:8000/27e6511b-004d-4164-8648-c9e257c51bda">
+        <skos:prefLabel xml:lang="en">People</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3"/>
+        <skos:topConceptOf rdf:resource="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://localhost:8000/99f0ec48-7f6b-46bb-9d04-a7103824f1bc">
+        <skos:prefLabel xml:lang="en">{"id": "a7d08448-b31c-49dd-ab17-766bfde61eb6", "value": "Storeys"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3"/>
+        <skos:topConceptOf rdf:resource="http://localhost:8000/b3612595-fdad-48e0-a0ff-b380685aa6f3"/>
+    </skos:Concept>
+
+    <skos:Collection rdf:about="http://localhost:8000/51407fe6-9f8d-439d-8309-d6804b4437d2">
+        <skos:prefLabel xml:lang="en">{"id": "ced8cf38-afd8-49a5-9e09-6f294d4c8bd3", "value": "Measurement Units"}</skos:prefLabel>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/27e6511b-004d-4164-8648-c9e257c51bda"/>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/99f0ec48-7f6b-46bb-9d04-a7103824f1bc"/>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="http://localhost:8000/e4cad321-5269-4f63-b8bd-68c77ab1daf7">
+                <skos:member rdf:resource="http://localhost:8000/47b1e453-bb56-451d-8cda-fdcda0826818"/>
+            </skos:Concept>
+        </skos:member>
+    </skos:Collection>
+
+</rdf:RDF>
