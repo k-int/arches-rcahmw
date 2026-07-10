@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:arches="http://localhost:8000/"
+>
+<!-- Add Building Materials -->
+
+  <skos:ConceptScheme rdf:about="http://localhost:8000/614eb906-12d3-35af-9b3a-e33c7707c8db">
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cc427d8a-6994-30bc-bb10-1fbb1e063ac4"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://localhost:8000/cc427d8a-6994-30bc-bb10-1fbb1e063ac4">
+    <skos:inScheme rdf:resource="http://localhost:8000/614eb906-12d3-35af-9b3a-e33c7707c8db"/>
+    <skos:narrower rdf:resource="http://localhost:8000/7f5e3d8d-77ca-3dc6-9e67-7efcc66c2ac0"/>
+    <skos:prefLabel xml:lang="en">{"id": "2a0d208e-4d74-43e0-8658-e9c1400c8053", "value": "Metal"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "453f0d00-22ee-48f2-9217-79cf19daf6be", "value": "http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053"}</dcterms:identifier>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://localhost:8000/7f5e3d8d-77ca-3dc6-9e67-7efcc66c2ac0">
+    <skos:inScheme rdf:resource="http://localhost:8000/614eb906-12d3-35af-9b3a-e33c7707c8db"/>
+    <dcterms:identifier xml:lang="en">{"id": "3bb59934-5366-4a84-88d5-167d02aa55f1", "value": "http://purl.org/heritagedata/schemes/eh_tbm/concepts/97992"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "6dd6926a-d69e-46e4-8df1-c1fbaf5dcf36", "value": "Iron"}</skos:prefLabel>
+    <skos:narrower rdf:resource="http://localhost:8000/20e0c962-f206-4f18-aaae-732e7be81f5c"/>
+    <skos:broader rdf:resource="http://localhost:8000/cc427d8a-6994-30bc-bb10-1fbb1e063ac4"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://localhost:8000/20e0c962-f206-4f18-aaae-732e7be81f5c">
+    <skos:inScheme rdf:resource="http://localhost:8000/614eb906-12d3-35af-9b3a-e33c7707c8db"/>
+    <skos:prefLabel xml:lang="en">{"id": "91d3b55b-e743-4af6-ace5-b43413b8d4bb", "value": "Corrugated Iron"}</skos:prefLabel>
+    <skos:broader rdf:resource="http://localhost:8000/7f5e3d8d-77ca-3dc6-9e67-7efcc66c2ac0"/>
+  </skos:Concept>
+
+<skos:Collection rdf:about="http://localhost:8000/e5babb70-bcfa-48aa-81df-79b11ce9b1ae">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/cc427d8a-6994-30bc-bb10-1fbb1e063ac4">
+            <skos:member>
+                <skos:Concept rdf:about="http://localhost:8000/7f5e3d8d-77ca-3dc6-9e67-7efcc66c2ac0">
+                    <skos:member rdf:resource="http://localhost:8000/20e0c962-f206-4f18-aaae-732e7be81f5c"/>
+                </skos:Concept>
+            </skos:member>
+        </skos:Concept>
+    </skos:member>
+</skos:Collection>
+
+</rdf:RDF>
