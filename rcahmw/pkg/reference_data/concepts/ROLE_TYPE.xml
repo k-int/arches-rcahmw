@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+
+<!-- Add Minister to role types -->
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/a6bb9d1a-a318-4b6b-bc2d-20450996f96a">
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f05a3660-53b8-4d48-9387-70c0724cb59e"/>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="http://localhost:8000/f05a3660-53b8-4d48-9387-70c0724cb59e">
+    <skos:inScheme rdf:resource="http://localhost:8000/a6bb9d1a-a318-4b6b-bc2d-20450996f96a"/>
+    <skos:prefLabel xml:lang="en">{"id": "868bfeb2-6060-474b-a61b-2c9575e6ae6f", "value": "Minister"}</skos:prefLabel>
+</skos:Concept>
+
+<skos:Collection rdf:about="http://localhost:8000/0cdf5418-d21b-4d01-9760-8edad86ac4f0">
+    <skos:prefLabel xml:lang="en">{"id": "45f3157e-cfb5-407d-8565-6f910581e281", "value": "FISH Components Thesaurus"}</skos:prefLabel>
+    <skos:member rdf:resource="f05a3660-53b8-4d48-9387-70c0724cb59e"/>
+</skos:Collection>
+
+</rdf:RDF>
