@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+  <skos:ConceptScheme rdf:about="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347">
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c277afeb-569d-4518-91a8-acf85ed985a4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b2895a17-fd14-4f47-8475-050d59184e29"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/32756d8f-bafa-4b5e-afef-ddde5804f9e8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cb3d7422-4670-4263-9b36-c382e67a4b18"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e7113066-d19d-4e39-a217-d6b87b8bd727"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ea90369c-e1de-43bf-b372-8bb13e1f36aa"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9c983761-7c79-44db-b1c2-a0511a26e5d8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/076f6c28-ecfe-4d17-8797-048ef699c957"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/75e40d6c-5a63-4ed6-b310-6795ade10d46"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0f76e535-4a58-465a-acde-b8af9ff1b7f4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7cbeb1cb-c279-447c-b28f-ed5d2ae3d143"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4301a58b-89a1-45b3-9f3d-edc5b682bce8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e5cdd104-68b9-47d0-aa4b-05af98a8d686"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d3db4e0a-1ef0-46e5-ba2f-f1f4a2b29edf"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/dc0a3db2-5f1c-4a2b-a23a-c6d3645ea077"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e3f8cc4a-26b1-4119-af05-f5a2ea0b0153"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6d162946-42e8-4639-b598-baeea83ab851"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/136be37c-11f6-4177-b4e3-06a5bec1b825"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6f4bbf14-5ab5-4c4f-b978-fef8c3bd23e5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/63ae0c5f-34ac-49b4-8dbd-120916be116b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/bbfbd690-81ba-4da9-bd48-05ce2255bf11"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/105a50c9-c26e-42fa-85eb-a472324699ca"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9d3662c6-c1d6-4417-aebf-54cf2e039759"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7cf570ce-81a3-4970-a65a-a4826a8e54b9"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ff3f07e6-a208-4565-850f-f9de7348f0ac"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4d3b50e7-b387-449c-9a41-5c40466a6649"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b3c31f9a-407d-4baa-90df-e63de69bbf01"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ebd9acb6-333d-4afd-b82f-a4485c2f8612"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/74afb37f-324d-450c-a03d-6bd1b81ffd31"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c29d67a6-f808-4df7-86cf-72f3f3f92593"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e652410f-d5bb-455c-a406-faffa74aa79d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9b1b2876-3934-4214-86b6-0258dfa9c4a6"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f6469dbf-ab39-4664-9892-b9f4835323c1"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/777e7b7f-8c31-4dc7-9f09-5626b2b17b91"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/41198c42-51dd-44c8-8b66-5f208367d1cf"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/05bf341e-6f3d-48ca-86a3-64c52baa11c4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3dfb5136-0bfd-4111-aa38-164e81dc6c8e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e5b86de3-03b4-4f44-b657-37bfdbaeb6da"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e9935b68-6eae-4f46-8c64-4fc2aa93778c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0f9a4197-5065-4688-bfb8-ee4f6cd6b469"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9e3df6ee-77ef-47fd-b09b-708e1fb15f06"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e2d539b4-1fba-4101-95bf-920fa1c8f62b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b964ffbf-deb6-47b8-b0e0-7aa264f3d53a"/>
+    <dcterms:title xml:lang="en">{"id": "1516027c-beae-416b-be51-a20d5dbe78dd", "value": "Evidence Types"}</dcterms:title>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://localhost:8000/9e3df6ee-77ef-47fd-b09b-708e1fb15f06">
+    <skos:prefLabel xml:lang="cy">{"id": "4197bedd-a960-4957-bc7e-d7d1eaa2d352", "value": "TIRWEDD HANESYDDOL"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "ff42b8a0-4820-4b1a-8295-b5b4a13106de", "value": "HISTORIC LANDSCAPE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/32756d8f-bafa-4b5e-afef-ddde5804f9e8">
+    <skos:prefLabel xml:lang="cy">{"id": "03724d99-4dae-4225-9767-856a57291f4b", "value": "NODWEDD NATURIOL O BWYS"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "147131ee-a18d-40bb-ad0b-63304a4baaaf", "value": "SIGNIFICANT NATURAL FEATURE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/63ae0c5f-34ac-49b4-8dbd-120916be116b">
+    <skos:prefLabel xml:lang="cy">{"id": "d9345daa-b98c-4c52-9412-90b274c82ae3", "value": "TYSTIOLAETH BALAEOAMGYLCHEDDOL"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "61655777-ebce-47a5-811c-79ed25f31860", "value": "PALEOENVIRONMENTAL EVIDENCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e5cdd104-68b9-47d0-aa4b-05af98a8d686">
+    <skos:prefLabel xml:lang="en">{"id": "82724741-95de-44f1-b30f-ca6927a25ded", "value": "URBAN LANDSCAPE"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "5a98e823-c0ba-4924-9d21-5c91a0107210", "value": "TIRWEDD DREFOL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/05bf341e-6f3d-48ca-86a3-64c52baa11c4">
+    <skos:prefLabel xml:lang="cy">{"id": "b68d1a25-60f4-43ef-b810-bcbf0b88b7fc", "value": "TIRWEDD A DDYLUNIWYD"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "5e801f3c-af4d-4495-9b32-f02f58302ba7", "value": "DESIGNED LANDSCAPE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ff3f07e6-a208-4565-850f-f9de7348f0ac">
+    <skos:prefLabel xml:lang="cy">{"id": "269ee93a-0798-49ca-8730-b930c94d843a", "value": "ARWYNEB A ADDASWYD"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "82992c5a-9f63-499e-9c92-ce3fdd7d5d4b", "value": "MODIFIED SURFACE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9c983761-7c79-44db-b1c2-a0511a26e5d8">
+    <skos:prefLabel xml:lang="cy">{"id": "f6403215-f829-4905-afeb-274557cb0708", "value": "CYDRAN BENSAERN\u00cfOL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "6517a463-7fbc-4e7d-a6a1-8e15cceef6d5", "value": "ARCHITECTURAL COMPONENT"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bbfbd690-81ba-4da9-bd48-05ce2255bf11">
+    <skos:prefLabel xml:lang="cy">{"id": "6242bce8-02eb-44e5-b978-ef05c9472dbb", "value": "GWASGARIAD O ARTEFFACTAU"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "7919269b-a8dd-4025-9531-9565f6520730", "value": "ARTEFACT SCATTER"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b3c31f9a-407d-4baa-90df-e63de69bbf01">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "456ec218-af5c-4120-a3c6-c8fef4754e37", "value": "NODWEDD A GLODDIWYD"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "b3b7d927-bd61-4b9f-b7ee-97edeb6b7eaa", "value": "EXCAVATED FEATURE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b2895a17-fd14-4f47-8475-050d59184e29">
+    <skos:prefLabel xml:lang="cy">{"id": "385b6394-e9f6-47f1-a5ad-e6576bfb6802", "value": "DYDDIAD YMOLEUEDD"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "3d32b196-37ee-4577-a049-424cc8654e63", "value": "LUMINESCENCE DATE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6f4bbf14-5ab5-4c4f-b978-fef8c3bd23e5">
+    <skos:prefLabel xml:lang="cy">{"id": "7e6af6ef-45d1-4e47-b5d6-3e027c163e51", "value": "DYDDIAD RADIOCARBON"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "d1b98f2a-19b9-4659-857d-422d1b79884f", "value": "RADIOCARBON DATE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/dc0a3db2-5f1c-4a2b-a23a-c6d3645ea077">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "59348f03-2ef9-430b-aea4-b09fa07ececd", "value": "\u00d4L-CNWD"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "a881faa2-7185-4c07-a58d-65bdee75b4df", "value": "CROPMARK"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/105a50c9-c26e-42fa-85eb-a472324699ca">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "0aab86d7-a084-47bc-8be8-dd5580235a72", "value": "DYDDIAD DENDROCRONOLEGOL"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "ff3ee175-e312-4d46-a46b-41490ca76033", "value": "DENDROCHRONOLOGICAL DATE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cb3d7422-4670-4263-9b36-c382e67a4b18">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "52f3da5d-cbee-497d-8b57-a1ec0eb1f3bc", "value": "DYDDODIAD O DAN YR WYNEB"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "03669f34-6b3f-42bb-8203-256fc70e4b31", "value": "SUB SURFACE DEPOSIT"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/41198c42-51dd-44c8-8b66-5f208367d1cf">
+    <skos:prefLabel xml:lang="cy">{"id": "aab99752-9958-438a-a554-d85bd442a0d4", "value": "TYSTIOLAETH GEOFFISEGOL FOROL"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "e31f7e4c-0db7-49d9-8d1e-b4223423a8ae", "value": "MARINE GEOPHYSICAL EVIDENCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/777e7b7f-8c31-4dc7-9f09-5626b2b17b91">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "73246715-47b1-4422-817b-4fb6d67344f2", "value": "NODWEDD NATURIOL A WELLWYD/SYDD WEDI\u2019I GWELLA"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "8105873a-2594-4f57-b46e-982647c316ab", "value": "ENHANCED NATURAL FEATURE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ea90369c-e1de-43bf-b372-8bb13e1f36aa">
+    <skos:prefLabel xml:lang="cy">{"id": "e5fa3142-33c8-4a19-83ea-4f811734e366", "value": "NODWEDD WEDI'I DATGLODDIO (HEB EI CHLODDIO'N ARCHAEOLEGOL)"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "32c232b2-5548-4cd8-9391-7647311fba48", "value": "EXCAVATED FEATURE (NON-ARCHAEOLOGICALLY EXCAVATED)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ebd9acb6-333d-4afd-b82f-a4485c2f8612">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "7a4f215e-b299-41c7-91bc-4872ae7345df", "value": "DATE EVIDENCE (OTHER)"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "ce7f5a7b-8970-41d1-935d-aa3153db404d", "value": "TYSTIOLAETH (ARALL) O DDYDDIAD "}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c29d67a6-f808-4df7-86cf-72f3f3f92593">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "31092411-3769-4b84-bc6d-06addb18c775", "value": "ORAL EVIDENCE"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "3579a104-996e-43ff-82d9-df08f23dcfab", "value": "TYSTIOLAETH LAFAR"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/3dfb5136-0bfd-4111-aa38-164e81dc6c8e">
+    <skos:prefLabel xml:lang="en">{"id": "cd379392-6ba0-45d7-b855-0bc06e53f72f", "value": "NATURAL FEATURE"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "f9097ba3-dba1-4b70-87bc-795a2d258f09", "value": "NODWEDD NATURIOL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0f9a4197-5065-4688-bfb8-ee4f6cd6b469">
+    <skos:prefLabel xml:lang="cy">{"id": "4eda350c-4a4c-463b-a335-60755e08362e", "value": "ELFEN BENSAERN\u00cfOL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "7e56e602-3f48-415a-9ed3-c5972035ac55", "value": "ARCHITECTURAL ELEMENT"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/076f6c28-ecfe-4d17-8797-048ef699c957">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "8c4fedff-862f-4481-85cc-04be99445d36", "value": "CONJECTURAL"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "b1c47ad6-b491-4041-98e2-b321bbd79e0b", "value": "DYFALIADOL"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7cbeb1cb-c279-447c-b28f-ed5d2ae3d143">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "161b4001-5a58-4322-99f3-0e2815c70795", "value": "TERRESTRIAL GEOPHYSICAL EVIDENCE"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "654d8bc4-8b9c-4624-88d9-a9e6586a233c", "value": "TYSTIOLAETH AROLWG GEOFFISEGOL O'R TIR"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e7113066-d19d-4e39-a217-d6b87b8bd727">
+    <skos:prefLabel xml:lang="cy">{"id": "19eeb8a8-de50-4aff-95b0-a1d6277508ab", "value": "TYSTIOLAETH DDOGFENNOL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "e87e5e02-d64c-4498-be50-96cdc160d17d", "value": "DOCUMENTARY EVIDENCE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6d162946-42e8-4639-b598-baeea83ab851">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "ac8dd860-45ee-4402-9a26-46aeef8d059d", "value": "MOVED STRUCTURE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f6469dbf-ab39-4664-9892-b9f4835323c1">
+    <skos:prefLabel xml:lang="en">{"id": "2a25efd4-5b28-43a7-8bc9-47f605b6c45b", "value": "CHEMICAL EVIDENCE"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "23b883c6-23bd-4569-8511-7c99f971d7a2", "value": "TYSTIOLAETH GEMEGOL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0f76e535-4a58-465a-acde-b8af9ff1b7f4">
+    <skos:prefLabel xml:lang="en">{"id": "fa512ae8-45ed-41ba-bb4c-75376fd17a88", "value": "BUILDING"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "594e2398-42d3-4d6f-81a0-153c2fe6e444", "value": "ADEILADU"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e5b86de3-03b4-4f44-b657-37bfdbaeb6da">
+    <skos:prefLabel xml:lang="cy">{"id": "c0ce8a96-462f-491f-9d1d-5558c508cf74", "value": "DELWEDDAU"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "aae5f91e-1bf3-4f3b-ab38-0ab031ec0a9b", "value": "IMAGERY"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e3f8cc4a-26b1-4119-af05-f5a2ea0b0153">
+    <skos:prefLabel xml:lang="en">{"id": "6fc8df80-0770-4513-b8d4-6c556dbb5e69", "value": "STRATIFIED FIND"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "c209b681-1543-4b57-8c26-ed73ecec19ef", "value": "DARGANFYDDIAD HAENEDIG"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/74afb37f-324d-450c-a03d-6bd1b81ffd31">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "54606458-4c42-4d0a-a22f-fe72fc39bac1", "value": "DARGANFYDDIAD"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "894ff30d-de6d-483c-81f1-23eaeb337ff7", "value": "FIND"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/136be37c-11f6-4177-b4e3-06a5bec1b825">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "dad9dfcc-9b8f-4819-b38e-1ca4e9deaaf5", "value": "DYDDODIAD AR YR WYNEB"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "ffadb3c9-6aaf-4472-abd7-9f61752c7468", "value": "SURFACE DEPOSIT"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9b1b2876-3934-4214-86b6-0258dfa9c4a6">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "09f17237-7f16-480f-97ae-c60547fedfa0", "value": "WRECKAGE"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "7571dd96-7e31-4e6a-b710-4b7149e157f1", "value": "DRYLLIAD"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7cf570ce-81a3-4970-a65a-a4826a8e54b9">
+    <skos:prefLabel xml:lang="en">{"id": "a016c80a-b875-43b9-9fcf-71a1985811ef", "value": "EARTHWORK"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "14ac3c0b-ac78-431b-8a75-fce1ce9f99f1", "value": "GWRTHGLAWDD"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4301a58b-89a1-45b3-9f3d-edc5b682bce8">
+    <skos:prefLabel xml:lang="cy">{"id": "a1beb3e0-01df-4088-97cd-0801dcc98b0d", "value": "DATA"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "9ab3a195-2b20-4e47-b246-62605ccbc894", "value": "DATA"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b964ffbf-deb6-47b8-b0e0-7aa264f3d53a">
+    <skos:prefLabel xml:lang="en">{"id": "47342f27-2b32-45e9-8025-79f60bfca63d", "value": "COMPLEX"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "58f17fc9-1a7e-45c2-bfe0-35ab6a8c737b", "value": "CYMHLYG"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c277afeb-569d-4518-91a8-acf85ed985a4">
+    <skos:prefLabel xml:lang="en">{"id": "eadc0d81-ea97-4a50-92f6-6130a3925172", "value": "SUBMERGED MONUMENT"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "7a66cb26-4165-47da-9cbd-c010cf75e94d", "value": "COFADAIL BODDEDIG"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e2d539b4-1fba-4101-95bf-920fa1c8f62b">
+    <skos:prefLabel xml:lang="cy">{"id": "a5ba743b-aa8f-481e-aef0-109840bf63cd", "value": "CLADDEDIGAETH"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "f0c972ad-d9c9-4965-bef3-da8861387c57", "value": "BURIAL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e652410f-d5bb-455c-a406-faffa74aa79d">
+    <skos:prefLabel xml:lang="cy">{"id": "fcd6eb1d-0644-47d5-a096-d7560ca1bcb1", "value": "TYSTIOLAETH O ENWAU LLEOEDD"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "bd77f1b3-3232-48f2-87d9-3b04f253a2fc", "value": "PLACENAME EVIDENCE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/75e40d6c-5a63-4ed6-b310-6795ade10d46">
+    <skos:prefLabel xml:lang="en">{"id": "3080b87c-c84b-450d-a913-006131b7dea2", "value": "STRUCTURE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "2e7f7a57-ac69-4268-a020-fcec770aae1f", "value": "ADEILADWAITH"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d3db4e0a-1ef0-46e5-ba2f-f1f4a2b29edf">
+    <skos:prefLabel xml:lang="en">{"id": "55399273-f19a-410f-a712-10579b864a52", "value": "SUBTERRANEAN FEATURE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "65f9185f-7471-44d8-9dd6-2514a474a81b", "value": "NODWEDD DANDDAEAROL"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e9935b68-6eae-4f46-8c64-4fc2aa93778c">
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "bceb06d2-29a4-4987-9a9d-776d96cfbf69", "value": "UNCERTAIN EVIDENCE"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">{"id": "f44f425c-d886-49d6-a426-7c92dd7b7b8b", "value": "TYSTIOLAETH ANSICR"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9d3662c6-c1d6-4417-aebf-54cf2e039759">
+    <skos:prefLabel xml:lang="cy">{"id": "537cf167-a1dc-4dfe-8ee3-2a1bb4ded59e", "value": "NODWEDD FOTANEGOL"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="en">{"id": "8a7926a4-2689-4089-8c1d-b0baa1d75aa1", "value": "BOTANICAL FEATURE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4d3b50e7-b387-449c-9a41-5c40466a6649">
+    <skos:prefLabel xml:lang="en">{"id": "5d5b5c2b-c2c5-42c5-9755-f938bbf157ec", "value": "UNSTRATIFIED FIND"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2516f4a6-0796-4134-8f81-2c349beed347"/>
+    <skos:prefLabel xml:lang="cy">{"id": "14c82d54-fbac-4163-bc62-451a9db8e973", "value": "DARGANFYDDIAD DI-HAEN"}</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Collection rdf:about="http://localhost:8000/8afe0b3e-8d23-4101-81c7-84c7535a2679">
+    <skos:prefLabel xml:lang="en">{"id": "f6afdc59-5c8e-4ce9-8cb7-144f649698ba", "value": "Evidence Types"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/b3c31f9a-407d-4baa-90df-e63de69bbf01"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/b2895a17-fd14-4f47-8475-050d59184e29"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e652410f-d5bb-455c-a406-faffa74aa79d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/9d3662c6-c1d6-4417-aebf-54cf2e039759"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e5cdd104-68b9-47d0-aa4b-05af98a8d686"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e3f8cc4a-26b1-4119-af05-f5a2ea0b0153"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/9e3df6ee-77ef-47fd-b09b-708e1fb15f06"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/bbfbd690-81ba-4da9-bd48-05ce2255bf11"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/9c983761-7c79-44db-b1c2-a0511a26e5d8"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/ea90369c-e1de-43bf-b372-8bb13e1f36aa"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/f6469dbf-ab39-4664-9892-b9f4835323c1"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/3dfb5136-0bfd-4111-aa38-164e81dc6c8e"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/32756d8f-bafa-4b5e-afef-ddde5804f9e8"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/63ae0c5f-34ac-49b4-8dbd-120916be116b"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/c277afeb-569d-4518-91a8-acf85ed985a4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e5b86de3-03b4-4f44-b657-37bfdbaeb6da"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/05bf341e-6f3d-48ca-86a3-64c52baa11c4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e2d539b4-1fba-4101-95bf-920fa1c8f62b"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/c29d67a6-f808-4df7-86cf-72f3f3f92593"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/136be37c-11f6-4177-b4e3-06a5bec1b825"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/6d162946-42e8-4639-b598-baeea83ab851"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e7113066-d19d-4e39-a217-d6b87b8bd727"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/ff3f07e6-a208-4565-850f-f9de7348f0ac"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/4301a58b-89a1-45b3-9f3d-edc5b682bce8"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/b964ffbf-deb6-47b8-b0e0-7aa264f3d53a"/>
+    </skos:member>
+    <skos:member>
+    <skos:Concept rdf:about="http://localhost:8000/7cbeb1cb-c279-447c-b28f-ed5d2ae3d143"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/41198c42-51dd-44c8-8b66-5f208367d1cf"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/cb3d7422-4670-4263-9b36-c382e67a4b18"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/7cf570ce-81a3-4970-a65a-a4826a8e54b9"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/d3db4e0a-1ef0-46e5-ba2f-f1f4a2b29edf"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/0f9a4197-5065-4688-bfb8-ee4f6cd6b469"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/75e40d6c-5a63-4ed6-b310-6795ade10d46"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/dc0a3db2-5f1c-4a2b-a23a-c6d3645ea077"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/6f4bbf14-5ab5-4c4f-b978-fef8c3bd23e5"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/ebd9acb6-333d-4afd-b82f-a4485c2f8612"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/9b1b2876-3934-4214-86b6-0258dfa9c4a6"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/777e7b7f-8c31-4dc7-9f09-5626b2b17b91"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/4d3b50e7-b387-449c-9a41-5c40466a6649"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/105a50c9-c26e-42fa-85eb-a472324699ca"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/076f6c28-ecfe-4d17-8797-048ef699c957"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/0f76e535-4a58-465a-acde-b8af9ff1b7f4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/74afb37f-324d-450c-a03d-6bd1b81ffd31"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://localhost:8000/e9935b68-6eae-4f46-8c64-4fc2aa93778c"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>
