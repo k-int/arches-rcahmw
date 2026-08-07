@@ -18087,7 +18087,7 @@
                 {
                     "alias": "construction_phase_evidence_type",
                     "config": {
-                        "rdmCollection": "02da8114-6a70-4fde-a022-2ee07acf17a3"
+                        "rdmCollection": "8afe0b3e-8d23-4101-81c7-84c7535a2679"
                     },
                     "datatype": "concept-list",
                     "description": null,
