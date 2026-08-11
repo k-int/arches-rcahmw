@@ -2,6 +2,11 @@
 from django.core.management.base import BaseCommand, CommandError
 from arches.app.models.models import Concept
 
+"""
+This management command deletes concepts loaded by Arches for HERs that aren't required by RCAHMW. 
+Ideally, it should be a django migration, however, since the Arches for HERs package load (including concepts) happens after migrations are run, 
+writing it as a migration would cause errors, as the concepts do not yet exist.
+"""
 
 class Command(BaseCommand):
 
