@@ -1,6 +1,6 @@
 # Welcome to the Arches Project!
 
-This is the Arches project for RCAHMWS' instance of Arches for HERs. 
+This is the Arches project for RCAHMW's instance of Arches for HERs. 
 
 To install the instance:
 
