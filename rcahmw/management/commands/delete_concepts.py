@@ -8,6 +8,7 @@ Ideally, it should be a django migration, however, since the Arches for HERs pac
 writing it as a migration would cause errors, as the concepts do not yet exist.
 """
 
+
 class Command(BaseCommand):
 
     def handle(self, *arg, **options):
@@ -147,5 +148,6 @@ class Command(BaseCommand):
         ]
 
         Concept.objects.filter(conceptid__in=area_concepts_to_delete).delete()
-        Concept.objects.filter(conceptid__in=cross_reference_source_concepts_to_delete).delete()
-
+        Concept.objects.filter(
+            conceptid__in=cross_reference_source_concepts_to_delete
+        ).delete()
