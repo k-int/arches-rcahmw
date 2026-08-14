@@ -436,6 +436,9 @@ HER_ROOT = os.path.join(
     "arches_her",
 )
 
+USE_TZ = True
+TIME_ZONE = "Europe/London"
+
 try:
     from .package_settings import *
 except ImportError:
