@@ -148,7 +148,6 @@ INSTALLED_APPS = (
     "rcahmw",
     "arches_her",
     "arches_ciim_app",
-    "arches_pdf_exporting",
 )
 
 INSTALLED_APPS += ("arches.app",)
