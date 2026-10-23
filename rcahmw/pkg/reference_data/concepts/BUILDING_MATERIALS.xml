@@ -9,6 +9,7 @@
 
   <skos:ConceptScheme rdf:about="http://localhost:8000/614eb906-12d3-35af-9b3a-e33c7707c8db">
     <skos:hasTopConcept rdf:resource="http://localhost:8000/cc427d8a-6994-30bc-bb10-1fbb1e063ac4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1d65f00a-9f87-43d6-a76a-0fefb9d4f33e"/>
   </skos:ConceptScheme>
 
   <skos:Concept rdf:about="http://localhost:8000/cc427d8a-6994-30bc-bb10-1fbb1e063ac4">
@@ -32,6 +33,11 @@
     <skos:broader rdf:resource="http://localhost:8000/7f5e3d8d-77ca-3dc6-9e67-7efcc66c2ac0"/>
   </skos:Concept>
 
+  <skos:Concept rdf:about="http://localhost:8000/1d65f00a-9f87-43d6-a76a-0fefb9d4f33e">
+    <skos:inScheme rdf:resource="http://localhost:8000/614eb906-12d3-35af-9b3a-e33c7707c8db"/>
+    <skos:prefLabel xml:lang="en">{"id": "37d45339-4a19-4993-b19b-7e7fb9998dc4", "value": "Mixed"}</skos:prefLabel>
+  </skos:Concept>
+
 <skos:Collection rdf:about="http://localhost:8000/e5babb70-bcfa-48aa-81df-79b11ce9b1ae">
     <skos:member>
         <skos:Concept rdf:about="http://localhost:8000/cc427d8a-6994-30bc-bb10-1fbb1e063ac4">
@@ -42,6 +48,7 @@
             </skos:member>
         </skos:Concept>
     </skos:member>
+    <skos:member rdf:resource="http://localhost:8000/1d65f00a-9f87-43d6-a76a-0fefb9d4f33e"/>
 </skos:Collection>
 
 </rdf:RDF>
