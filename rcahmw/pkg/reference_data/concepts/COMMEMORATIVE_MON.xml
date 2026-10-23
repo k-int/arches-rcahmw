@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:arches="http://localhost:8000/"
+>
+
+<!-- Add commemorative monuments to FISH Components thesaurus -->
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8">
+    <dcterms:identifier xml:lang="en">{"id": "e1569128-e15b-4fc6-a868-61665d93a753", "value": "http://www.archesproject.org/488e13fb-62d5-3943-a915-dfa4187fe8e8"}</dcterms:identifier>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7"/>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7">
+    <dcterms:identifier xml:lang="en">{"id": "dbcb5110-724f-4a37-9f43-3913d0cdf4f7", "value": "http://purl.org/heritagedata/schemes/eh_com/concepts/137774"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "6b09d431-c72d-4f75-9c51-9a388556b3e7", "value": "Accessories used in furnishing and embellishing a building or structure."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "5da06b53-92e4-43e1-8221-db97d04154e9", "value": "Fixtures And Fittings"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:narrower rdf:resource="http://localhost:8000/ace5fa34-b8a3-4934-8706-c00c10c350bf"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/ace5fa34-b8a3-4934-8706-c00c10c350bf">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:prefLabel xml:lang="en">{"id": "5ed3fe71-8f9b-439b-bab4-9ac7f9f02c9b", "value": "Commemorative Memorial"}</skos:prefLabel>
+    <skos:broader rdf:resource="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7"/>
+    <skos:narrower rdf:resource="http://localhost:8000/92e9df05-8617-418a-85e0-42a6744605a1"/>
+    <skos:narrower rdf:resource="http://localhost:8000/5e0e8f78-bcfe-4d56-be45-8d8764992029"/>
+    <skos:narrower rdf:resource="http://localhost:8000/5d55462e-3da8-40d3-a6da-50ccfce29206"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/92e9df05-8617-418a-85e0-42a6744605a1">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/ace5fa34-b8a3-4934-8706-c00c10c350bf"/>
+    <skos:prefLabel xml:lang="en">{"id": "9a348f23-1ab9-4d48-a52e-bdc770a30752", "value": "Boer War Commemoration"}</skos:prefLabel>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/5e0e8f78-bcfe-4d56-be45-8d8764992029">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/ace5fa34-b8a3-4934-8706-c00c10c350bf"/>
+    <skos:prefLabel xml:lang="en">{"id": "c2bed9ed-902e-478b-a1d2-158589ee06f7", "value": "WWI Commemoration"}</skos:prefLabel>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/5d55462e-3da8-40d3-a6da-50ccfce29206">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/ace5fa34-b8a3-4934-8706-c00c10c350bf"/>
+    <skos:prefLabel xml:lang="en">{"id": "d649254d-6c6b-4169-85ea-485e197a238f", "value": "WWII Commemoration"}</skos:prefLabel>
+</skos:Concept>
+
+<skos:Collection rdf:about="http://localhost:8000/1a161d2b-5887-4ad2-800e-ffa073f3b2bd">
+    <skos:prefLabel xml:lang="en">{"id": "45f3157e-cfb5-407d-8565-6f910581e281", "value": "FISH Components Thesaurus"}</skos:prefLabel>
+
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7">
+            <skos:member>
+                <skos:Concept rdf:about="http://localhost:8000/ace5fa34-b8a3-4934-8706-c00c10c350bf">
+                    <skos:member rdf:resource="http://localhost:8000/92e9df05-8617-418a-85e0-42a6744605a1"/>
+                    <skos:member rdf:resource="http://localhost:8000/5e0e8f78-bcfe-4d56-be45-8d8764992029"/>
+                    <skos:member rdf:resource="http://localhost:8000/5d55462e-3da8-40d3-a6da-50ccfce29206"/>
+                </skos:Concept>
+            </skos:member>
+        </skos:Concept>
+    </skos:member>
+
+</skos:Collection>
+
+</rdf:RDF>
