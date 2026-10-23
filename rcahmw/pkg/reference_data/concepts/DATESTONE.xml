@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:arches="http://localhost:8000/"
+>
+
+<!-- Add datestone to FISH Components thesaurus -->
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8">
+    <dcterms:identifier xml:lang="en">{"id": "e1569128-e15b-4fc6-a868-61665d93a753", "value": "http://www.archesproject.org/488e13fb-62d5-3943-a915-dfa4187fe8e8"}</dcterms:identifier>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/195d2dda-6498-37cb-9316-6a6c93eab8d6"/>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="http://localhost:8000/195d2dda-6498-37cb-9316-6a6c93eab8d6">
+    <dcterms:identifier xml:lang="en">{"id": "afcc2332-a339-4bb2-8b40-1a5dc2319e02", "value": "http://purl.org/heritagedata/schemes/eh_com/concepts/138311"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "49b6d9f3-f32c-48e6-b36d-0658d10e870d", "value": "A part of a building or structure that is an element of the construction."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "66ee60ed-eac1-467b-a9c1-3c4c3db947c8", "value": "Structural Component"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:narrower rdf:resource="http://localhost:8000/ab9e85d8-9588-4207-9ff1-3d918acf9b22"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/ab9e85d8-9588-4207-9ff1-3d918acf9b22">
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/195d2dda-6498-37cb-9316-6a6c93eab8d6"/>
+    <skos:prefLabel xml:lang="en">{"id": "2e304039-c58d-4519-bb6a-b4d7ee5c56d6", "value": "Datestone"}</skos:prefLabel>
+</skos:Concept>
+
+<skos:Collection rdf:about="http://localhost:8000/1a161d2b-5887-4ad2-800e-ffa073f3b2bd">
+    <skos:prefLabel xml:lang="en">{"id": "45f3157e-cfb5-407d-8565-6f910581e281", "value": "FISH Components Thesaurus"}</skos:prefLabel>
+
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/195d2dda-6498-37cb-9316-6a6c93eab8d6">
+            <skos:member rdf:resource="http://localhost:8000/ab9e85d8-9588-4207-9ff1-3d918acf9b22"/>
+        </skos:Concept>
+    </skos:member>
+
+</skos:Collection>
+
+</rdf:RDF>
