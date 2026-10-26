@@ -26,6 +26,13 @@
                 </skos:Concept>
             </skos:hasTopConcept>
 
+            <skos:hasTopConcept>
+                <skos:Concept rdf:about="http://localhost:8000/e2427125-8f20-46f1-803b-044fa286d642">
+                    <skos:prefLabel xml:lang="en">{"id": "d1b49b83-f7e3-44c0-b0ab-5649b48a1ca6", "value": "Number of Openings"}</skos:prefLabel>
+                    <skos:inScheme rdf:resource="http://localhost:8000/a36a2686-a809-4195-9c5d-b578a1a51508"/>
+                </skos:Concept>
+            </skos:hasTopConcept>
+
         </skos:ConceptScheme>
 
         <skos:Collection rdf:about="http://localhost:8000/df735209-a20a-483b-a1ec-6ca3790de557">
@@ -38,6 +45,9 @@
                 </skos:member>
                 <skos:member>
                     <skos:Concept rdf:about="http://localhost:8000/d9f2a08c-f08c-44ef-bc75-524a166d11d9"/>
+                </skos:member>
+                <skos:member>
+                    <skos:Concept rdf:about="http://localhost:8000/e2427125-8f20-46f1-803b-044fa286d642"/>
                 </skos:member>
         </skos:Collection>
 
