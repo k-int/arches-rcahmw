@@ -33,7 +33,7 @@
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://localhost:8000/569fcfdb-8bcc-4c07-8420-431bb1fd7686">
         <skos:inScheme rdf:resource="http://localhost:8000/a0917481-2238-4673-a41d-a450ab52db24"/>
-        <skos:prefLabel xml:lang="en">{"id": "23f68dcf-b8f0-457e-8afa-cc8294aca6d1", "value": "Short-Wall Entry"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "23f68dcf-b8f0-457e-8afa-cc8294aca6d1", "value": "Short-wall Entry"}</skos:prefLabel>
       </skos:Concept>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
@@ -50,7 +50,7 @@
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://localhost:8000/4e17a5eb-43c4-4db0-ab42-47ef93d14081">
-        <skos:prefLabel xml:lang="en">{"id": "ca7574cd-6bc6-4db9-9e82-1462e2fe1706", "value": "Gabel Entry"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "ca7574cd-6bc6-4db9-9e82-1462e2fe1706", "value": "Gable Entry"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://localhost:8000/a0917481-2238-4673-a41d-a450ab52db24"/>
       </skos:Concept>
     </skos:hasTopConcept>

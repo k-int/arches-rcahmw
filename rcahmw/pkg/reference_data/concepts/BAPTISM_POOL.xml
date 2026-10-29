@@ -14,7 +14,7 @@
 </skos:ConceptScheme>
 
 <skos:Concept rdf:about="http://localhost:8000/7d06de13-0010-331d-8467-b25ded7a57b7">
-    <dcterms:identifier xml:lang="en">{"id": "ced064c1-04da-41d8-ad0e-efad1d136e4e", "value": "http://purl.org/heritagedata/schemes/eh_com/concepts/137788"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "dbcb5110-724f-4a37-9f43-3913d0cdf4f7", "value": "http://purl.org/heritagedata/schemes/eh_com/concepts/137774"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "6b09d431-c72d-4f75-9c51-9a388556b3e7", "value": "Accessories used in furnishing and embellishing a building or structure."}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "5da06b53-92e4-43e1-8221-db97d04154e9", "value": "Fixtures And Fittings"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>

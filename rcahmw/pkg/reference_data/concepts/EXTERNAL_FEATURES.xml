@@ -45,6 +45,42 @@
     <skos:broader rdf:resource="http://localhost:8000/c073a570-b65f-3a8d-a805-bc9e56094579"/>
 </skos:Concept>
 
+<skos:Concept rdf:about="http://localhost:8000/b2a240e8-5dd9-4229-bc2e-f4ef3052edb6">
+    <skos:prefLabel xml:lang="en">{"id": "cd337394-d73e-4063-abbd-c3a30293fa6b", "value": "Giant Arch in Pediment"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/c073a570-b65f-3a8d-a805-bc9e56094579"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/649f9305-c1de-4661-b4a0-f20a84299156">
+    <skos:prefLabel xml:lang="en">{"id": "c2c0d6cf-f6a6-45da-9e70-9a703dddcfdd", "value": "Full Height Pilaster"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/c9289178-d106-33d9-8598-2c7209f82089"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/689b7d04-c2bc-4325-8a6e-54620d5a55ab">
+    <skos:prefLabel xml:lang="en">{"id": "4affdc0c-f498-4270-89a7-516ad1c2294b", "value": "Half Height Pilaster"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/c9289178-d106-33d9-8598-2c7209f82089"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/5009030e-ab35-4af1-b6b5-fddaf20e3427">
+    <skos:prefLabel xml:lang="en">{"id": "661547af-40a7-4b3c-90bd-1c7969efe0b2", "value": "Integral Column"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/2fb01362-2adb-3226-a297-16ee8526e847"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/4f10b235-efcf-4ed3-85c6-78c9f39cd931">
+    <skos:prefLabel xml:lang="en">{"id": "099ff368-82d9-494e-a0d7-2f11a7ecf9d6", "value": "Full Height Integral Column"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/5009030e-ab35-4af1-b6b5-fddaf20e3427"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://localhost:8000/892f230e-ce1d-4933-8154-df09113e2835">
+    <skos:prefLabel xml:lang="en">{"id": "a2cc37d8-ae37-4b27-bd63-dab3a09c17f9", "value": "Half Height Integral Column"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/488e13fb-62d5-3943-a915-dfa4187fe8e8"/>
+    <skos:broader rdf:resource="http://localhost:8000/5009030e-ab35-4af1-b6b5-fddaf20e3427"/>
+</skos:Concept>
+
 <skos:Collection rdf:about="http://localhost:8000/1a161d2b-5887-4ad2-800e-ffa073f3b2bd">
 
     <!-- Building Component -->
@@ -79,6 +115,27 @@
                 <skos:Concept rdf:about="http://localhost:8000/c073a570-b65f-3a8d-a805-bc9e56094579">
                     <skos:member rdf:resource="http://localhost:8000/5f35bbca-60ca-405a-972e-7322d4dd2530"/>
                     <skos:member rdf:resource="http://localhost:8000/390ce441-22a1-4b27-9b22-5638087d48ed"/>
+                    <skos:member rdf:resource="http://localhost:8000/b2a240e8-5dd9-4229-bc2e-f4ef3052edb6"/>
+                </skos:Concept>
+            </skos:member>
+
+            <!-- Pilaster -->
+            <skos:member>
+                <skos:Concept rdf:about="http://localhost:8000/c9289178-d106-33d9-8598-2c7209f82089">
+                    <skos:member rdf:resource="http://localhost:8000/649f9305-c1de-4661-b4a0-f20a84299156"/>
+                    <skos:member rdf:resource="http://localhost:8000/689b7d04-c2bc-4325-8a6e-54620d5a55ab"/>
+                </skos:Concept>
+            </skos:member>
+
+            <!-- Column -->
+            <skos:member>
+                <skos:Concept rdf:about="http://localhost:8000/2fb01362-2adb-3226-a297-16ee8526e847">
+                    <skos:member>
+                        <skos:Concept rdf:about="http://localhost:8000/5009030e-ab35-4af1-b6b5-fddaf20e3427">
+                            <skos:member rdf:resource="http://localhost:8000/4f10b235-efcf-4ed3-85c6-78c9f39cd931"/>
+                            <skos:member rdf:resource="http://localhost:8000/892f230e-ce1d-4933-8154-df09113e2835"/>
+                        </skos:Concept>
+                    </skos:member>
                 </skos:Concept>
             </skos:member>
         </skos:Concept>
